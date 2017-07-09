@@ -84,7 +84,7 @@ html, body {
   position: fixed;
   top: 0;
   border-bottom: 1px solid #5c6772;
-  max-height: 30%;
+  max-height: 50%;
   overflow: hidden;
 }
 .ucsd-nav .icon {
