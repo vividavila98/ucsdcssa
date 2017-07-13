@@ -94,7 +94,7 @@ html, body {
     text-decoration: none;
     cursor: pointer;
 }
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 950px) {
   .ucsd-nav-right a {display: none;}
   .ucsd-nav a.icon {
     float: right;
@@ -105,7 +105,7 @@ html, body {
   }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 950px) {
   .ucsd-nav.responsive {position: right;}
   .ucsd-nav.responsive .icon {
     margin-right: 10px;
@@ -171,7 +171,7 @@ html, body {
    background-color: #FFFFFF; 
 }
 .footer-distributed{
-    background-color: #292c2f;
+    background-color: #10102F;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -223,16 +223,11 @@ html, body {
     color:  white;
     font-size: 14px;
     font-weight: normal;
-    padding-top: 5px;
+    padding-top: 39px;
     margin: 0;
 }
 
 /* Footer social icons */
-
-.footer-distributed .footer-icons{
-    margin-top: 13px;
-
-}
 
 .fa {
     padding: 15px;
@@ -258,6 +253,11 @@ html, body {
     color: white;
 }
 
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 /* Twitter */
 
 .fa-twitter {
@@ -269,21 +269,6 @@ html, body {
   color: white;
 }
 
-.footer-distributed .footer-icons a{
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-    background-color:  #33383b;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-}
-
 /* Footer Right */
 
 .footer-distributed .footer-right{
@@ -292,7 +277,7 @@ html, body {
 }
 
 .footer-distributed .footer-right p{
-    display: inline-block;
+    display: block;
     vertical-align: top;
     margin: 20px 15px 0 0;
     color: #ffffff;
@@ -309,14 +294,15 @@ html, body {
     display: block;
     border-radius: 3px;
     box-sizing: border-box;
-    background-color:  #1f2022;
+    background-color: white;
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
     border: none;
     resize: none;
     font: inherit;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    color:  #d1d2d2;
+    color: #323232;
     width: 410px;
     padding: 10px;
 }
@@ -340,7 +326,7 @@ html, body {
 }
 .footer-distributed form button{
     border-radius: 3px;
-    background-color:  #33383b;
+    background-color: #4C4C4C;
     color: #ffffff;
     border: 0;
     padding: 15px 50px;
@@ -352,7 +338,7 @@ form button:hover{
     }
 /* If you don't want the footer to be responsive, remove these media queries */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 
     .footer-distributed {
         font: bold 14px sans-serif;
@@ -371,7 +357,7 @@ form button:hover{
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 950px) {
 
     .footer-distributed{
         padding: 15px;
