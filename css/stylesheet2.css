@@ -177,7 +177,7 @@ html, body {
     width: 100%;
     font: bold 16px sans-serif;
     text-align: left;
-    padding: 10px 60px 10px;
+    padding: 0px 60px 10px;
     margin-left: 0;
     margin-top: 10px;
     overflow: hidden;
@@ -223,7 +223,7 @@ html, body {
     color:  white;
     font-size: 14px;
     font-weight: normal;
-    padding-top: 39px;
+    padding-top: 42px;
     margin: 0;
 }
 
@@ -354,6 +354,10 @@ form button:hover{
     .footer-distributed form button{
         padding: 10px 35px;
     }
+    .footer-distributed .footer-connect{
+      margin-top: 0px;
+      padding-top: 0px;
+    }
 
 }
 
@@ -382,4 +386,9 @@ form button:hover{
     form button:hover{
         opacity: 0.7;
     }
+    .footer-distributed .footer-connect{
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+
 }
