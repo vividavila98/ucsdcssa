@@ -234,15 +234,16 @@ html, body {
 /* Footer social icons */
 
 .fa {
-    padding: 15px;
-    font-size: 30px;
-    width: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 20px;
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 1px;
+  border-radius: 20px;
 }
 
-/* Add a hover effect if you want */
+/* Add a hover effect */
 
 .fa:hover {
     opacity: 0.7;
@@ -251,17 +252,14 @@ html, body {
 /* Set a specific color for each brand */
 
 /* Facebook */
-
 .fa-facebook {
     background: #3B5998;
     color: white;
 }
-
 .fa-instagram {
   background: #125688;
   color: white;
 }
-
 /* Twitter */
 
 .fa-twitter {
@@ -272,7 +270,6 @@ html, body {
   background: #007bb5;
   color: white;
 }
-
 /* Footer Right */
 
 .footer-distributed .footer-right{
@@ -359,6 +356,7 @@ form button:hover{
         padding: 10px 35px;
     }
     .footer-distributed .footer-connect{
+      font:bold;
       margin-top: 0px;
       padding-top: 0px;
     }
