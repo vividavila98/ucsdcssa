@@ -7,6 +7,11 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
+
+h1, h2, h3, h4 {
+  text-transform: uppercase;
+}
+
 /*top of page*/
 .career-top {
   background-image: url("../images/CF_back.jpg");
@@ -15,8 +20,7 @@ html, body {
   font-size: 20px;
   text-align: center;
   padding-top: 175px;
-  padding-bottom: 175px;
-  
+  padding-bottom: 175px;  
 }
 
 .career-title {
@@ -38,9 +42,9 @@ html, body {
 
 .about-title {
   text-align: center;
+  padding: 5px 10px;
   border: 2px solid grey;
   display: inline-block;
-  width: 3.5em;
   font-size: 36px;
 }
 
@@ -54,19 +58,21 @@ html, body {
 .attending-company {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: darkblue;
+  background-color: 10102F;
   color: white;
+}
+
+.attending-comp-holder {
+  width: 95%;
+  text-align: right;
 }
 
 .attending-title {
   text-align: center;
   border: 2px solid white;
   display: inline-block;
-  width: 10em;
   font-size: 36px;
-  float: right;
-  margin-left: 40%;
-  margin-bottom: 20px;
+  margin: 10px 20px;
 }
 
 .table {
@@ -112,6 +118,7 @@ html, body {
   text-align: right;
   display: inline-block;
   padding-right: 5px;
+  text-transform: lowercase;
 }
 
 .download-button {
@@ -170,7 +177,7 @@ html, body {
 
 .bottom-text {
  margin: auto;
- width: 600px;
+ width: 604px;
 }
 
 .tabcontent h3 {
@@ -182,12 +189,10 @@ html, body {
 /*register txt */
 .register { 
   display: inline-block;
-   background: yellow;
-   
+   background: yellow;   
    width: 604px;
    margin-top: 30px;
-   margin-right: auto;
-   margin-left: auto;
+
 }
 
 
