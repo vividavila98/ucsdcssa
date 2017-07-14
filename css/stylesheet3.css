@@ -35,8 +35,8 @@ body {
 }
 
 .about {
-  padding: 60px;
-  padding-right: 10%;
+  padding: 60px 10%;
+  padding-bottom: 100px;
   
 }
 
@@ -65,18 +65,18 @@ body {
 
 .attending-comp-holder {
   width: 95%;
-  text-align: right;
   padding-bottom: 30px;
+  text-align: right;
 }
 
 .attending-title {
   text-align: center;
   border: 2px solid white;
-  display: inline-block;
   font-size: 36px;
   margin: 10px 20px;
   text-transform: uppercase;
   padding: 5px 20px;
+  display: inline-block;
 }
 
 .table {
@@ -118,30 +118,38 @@ body {
 }
 
 .plan-ahead {
-  width:12em;
   text-align: right;
   display: inline-block;
-  padding-right: 5px;
-  text-transform: lowercase;
+  padding: 10px 10px;
 }
 
 .download-button {
-  width: 20em;
   text-align: center;
   background-color: white;
   color: black;
   display: inline-block;
-  padding: 15px 0px;
-  text-transform: uppercase;
-}
-.faq {
-  margin: 0px 100px;
-}
-.faq-title {
-  border: 2px solid grey;
   padding: 10px 20px;
-  margin: 30px 0px;
+  text-transform: uppercase;
+  vertical-align: top;
+  margin-top: 18px;
+}
+
+.faq {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.faq-title-holder {
+  width: 100%;
+}
+
+.faq-title {
+  border: 2px solid black;
+  padding: 0px 10px;
+  margin: 20px 30px;
   display: inline-block;
+  font-size: 36px;
+  
 }
 
 /* Style the tab */
@@ -204,6 +212,7 @@ body {
   width: 300px;
   height: 230px;
   text-align: center;
+  vertical-align: top;
 }
 
 .bottom-text {
@@ -232,10 +241,10 @@ body {
   overflow: hidden;
 }
 .ucsd-nav .icon {
-    color: #5c6772;
-    display: none;
-    text-decoration: none;
-    cursor: pointer;
+  color: #5c6772;
+  display: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 950px) {
   .ucsd-nav-right a {display: none;}
@@ -315,60 +324,60 @@ body {
 }
 /*FOOTER format*/
 .footer-distributed{
-    background-color: #10102F;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-    box-sizing: border-box;
-    width: 100%;
-    font: bold 16px sans-serif;
-    text-align: left;
-    padding: 0px 60px 10px;
-    margin-left: 0;
-    margin-top: 10px;
-    overflow: hidden;
+  background-color: #10102F;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  font: bold 16px sans-serif;
+  text-align: left;
+  padding: 0px 60px 10px;
+  margin-left: 0;
+  margin-top: 10px;
+  overflow: hidden;
 
 }
 /* Footer left */
 .footer-distributed .footer-left{
-    float: left;
-    width: 50%;
-    font-family: 'Source Sans Pro', sans-serif;
+  float: left;
+  width: 50%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .
 /* Logo */
 
 .footer-distributed h3{
-    color:  #ffffff;
-    font: normal 36px 'Cookie', cursive;
-    margin: 0 0 10px;
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0 0 10px;
 }
 
 .footer-distributed h3 span{
-    color:  #5383d3;
+  color:  #5383d3;
 }
 
 /* Footer links */
 
 .footer-distributed .footer-links{
-    color:  #ffffff;
-    margin: 0 0 10px;
-    padding: 0;
+  color:  #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
 }
 
 .footer-distributed .footer-links a{
-    display:inline-block;
-    line-height: 0.8;
-    text-decoration: none;
-    color:  inherit;
+  display:inline-block;
+  line-height: 0.8;
+  text-decoration: none;
+  color:  inherit;
 }
 .footer-links a:hover{
-        opacity: 0.7;
-    }
+  opacity: 0.7;
+}
 .footer-distributed .footer-connect{
-    color:  white;
-    font-size: 14px;
-    font-weight: normal;
-    padding-top: 42px;
-    margin: 0;
+  color:  white;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 42px;
+  margin: 0;
 }
 
 /* Footer social icons */
@@ -386,15 +395,15 @@ body {
 /* Add a hover effect */
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+  background: #3B5998;
+  color: white;
 }
 .fa-instagram {
   background: #125688;
@@ -403,8 +412,8 @@ body {
 /* Twitter */
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55ACEE;
+  color: white;
 }
 .fa-linkedin {
   background: #007bb5;
@@ -413,124 +422,124 @@ body {
 /* Footer Right */
 
 .footer-distributed .footer-right{
-    float: right;
-    font-family: 'Source Sans Pro', sans-serif;
+  float: right;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .footer-distributed .footer-right p{
-    display: block;
-    vertical-align: top;
-    margin: 20px 15px 0 0;
-    color: #ffffff;
+  display: block;
+  vertical-align: top;
+  margin: 20px 15px 0 0;
+  color: #ffffff;
 }
 
 /* The contact form */
 
 .footer-distributed form{
-    margin-top: 20px;
-    display: block;
+  margin-top: 20px;
+  display: block;
 }
 
 .footer-distributed form input{
-    display: block;
-    border-radius: 3px;
-    box-sizing: border-box;
-    background-color: white;
-    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-    border: none;
-    resize: none;
-    font: inherit;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    color: #323232;
-    width: 410px;
-    padding: 10px;
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+  font: inherit;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #323232;
+  width: 410px;
+  padding: 10px;
 }
 
 .footer-distributed ::-webkit-input-placeholder {
-    color:  #5c666b;
+  color:  #5c666b;
 }
 
 .footer-distributed ::-moz-placeholder {
-    color:  #5c666b;
-    opacity: 1;
+  color:  #5c666b;
+  opacity: 1;
 }
 
 .footer-distributed :-ms-input-placeholder{
-    color:  #5c666b;
+  color:  #5c666b;
 }
 
 .footer-distributed form input{
-    height: 55px;
-    margin-bottom: 15px;
+  height: 55px;
+  margin-bottom: 15px;
 }
 .footer-distributed form button{
-    border-radius: 3px;
-    background-color: #4C4C4C;
-    color: #ffffff;
-    border: 0;
-    padding: 15px 50px;
-    font-weight: bold;
-    float: right;
+  border-radius: 3px;
+  background-color: #4C4C4C;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
 }
 form button:hover{
-        opacity: 0.7;
-    }
+  opacity: 0.7;
+}
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media screen and (max-width: 950px) {
 
-    .footer-distributed {
-        font: bold 14px sans-serif;
-    }
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
 
-    .footer-distributed .footer-company-name{
-        font-size: 12px;
-    }
+  .footer-distributed .footer-company-name{
+    font-size: 12px;
+  }
 
-    .footer-distributed form input{
-        width: 300px;
-    }
-    .footer-distributed form button{
-        padding: 10px 35px;
-    }
-    .footer-distributed .footer-connect{
-      font:bold;
-      margin-top: 0px;
-      padding-top: 0px;
-    }
+  .footer-distributed form input{
+    width: 300px;
+  }
+  .footer-distributed form button{
+    padding: 10px 35px;
+  }
+  .footer-distributed .footer-connect{
+    font:bold;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 
 }
 
 @media screen and (max-width: 950px) {
 
-    .footer-distributed{
-        padding: 15px;
-    }
+  .footer-distributed{
+    padding: 15px;
+  }
 
-    .footer-distributed .footer-left,
-    .footer-distributed .footer-right{
-        float: none;
-        max-width: 400px;
-        margin: 0 auto;
-    }
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right{
+    float: none;
+    max-width: 400px;
+    margin: 0 auto;
+  }
 
-    .footer-distributed .footer-left{
-        width: auto;
-        margin-bottom: 5px;
-    }
+  .footer-distributed .footer-left{
+    width: auto;
+    margin-bottom: 5px;
+  }
 
-    .footer-distributed form button{
-        float: none;
-        cursor: pointer;
-    }
-    form button:hover{
-        opacity: 0.7;
-    }
-    .footer-distributed .footer-connect{
-      margin-top: 0px;
-      padding-top: 0px;
-    }
+  .footer-distributed form button{
+    float: none;
+    cursor: pointer;
+  }
+  form button:hover{
+    opacity: 0.7;
+  }
+  .footer-distributed .footer-connect{
+    margin-top: 0px;
+    padding-top: 0px;
+  }
 
 }
