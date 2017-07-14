@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+/* Remove default browser margins and padding */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+/*top of page*/
+.career-top {
+  background-image: url("../images/CF_back.jpg");
+  background-size: 100% 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 175px;
+  padding-bottom: 175px;
+  
+}
+
+.career-title {
+  text-align: center;
+  border: 3px solid white;
+  width: 10em;
+  display: inline-block;
+}
+
+.career-sub {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.about {
+  padding: 60px;
+  padding-right: 10%;
+}
+
+.about-title {
+  text-align: center;
+  border: 2px solid grey;
+  display: inline-block;
+  width: 3.5em;
+  font-size: 36px;
+}
+
+.career-par {
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+/*Middle of page*/
+.attending-company {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: darkblue;
+  color: white;
+}
+
+.attending-title {
+  text-align: center;
+  border: 2px solid white;
+  display: inline-block;
+  width: 10em;
+  font-size: 36px;
+  float: right;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+
+.table {
+  padding-top: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  border-collapse: collapse;
+  color: white;
+  font-size: 16px;
+}
+
+.table-title {
+  border-bottom: 1px solid #ddd;
+}
+
+.table-content {
+   border-bottom: 1px solid #ddd;
+   border-top: 1px solid #ddd; 
+}
+.left-content {
+  border-right: 1px solid #ddd; 
+}
+
+.middle-content {
+}
+
+.right-content {
+  border-left: 1px solid #ddd;
+  color: lightblue;
+}
+
+.attending-bottom {
+  width: 100%;
+  margin-top:20px;
+  text-align: center;
+}
+
+.plan-ahead {
+  width:12em;
+  height: 55px;
+  text-align: right;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.download-button {
+  width: 20em;
+  height: 55px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding-top: 12px;
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    text-align: center;
+}
+
+.mailing, .payment, .bring, .info {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+.bottom-text {
+ margin: auto;
+ width: 600px;
+}
+
+.tabcontent h3 {
+   background: darkblue;
+   color: white;
+   font-size: 26px; 
+}
+
+/*register txt */
+.register { 
+  display: inline-block;
+   background: yellow;
+   
+   width: 604px;
+   margin-top: 30px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+
+/* HEADER Format */
+.ucsd-nav {
+  background-color: white;
+  padding: 0px 0px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #5c6772;
+  max-height: 50%;
+  overflow: hidden;
+}
+.ucsd-nav .icon {
+    color: #5c6772;
+    display: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 950px) {
+  .ucsd-nav-right a {display: none;}
+  .ucsd-nav a.icon {
+    float: right;
+    display: block;
+  }
+  a.icon:hover{
+    color: #040505;
+  }
+  
+}
+
+@media screen and (max-width: 950px) {
+  .ucsd-nav.responsive {position: right;}
+  .ucsd-nav.responsive .icon {
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: 12px;
+  }
+  .ucsd-nav.responsive a {
+    margin-right: 22px;
+    position: right;
+    float: none;
+    display: block;
+    text-align: right;
+  }
+  .ucsd-nav.responsive .ucsd-logo{
+    min-width: 154%;
+  }
+}
+.ucsd-nav-left {
+  float: left;
+  max-width: 100px;
+}
+.ucsd-nav-right {
+  font-size: 28px;
+  float: right;
+  position: center;
+}
+.ucsd-nav-content {
+  margin: auto;
+  max-width: 1150px;
+  max-height: 100px;
+}
+.ucsd-nav-right {
+  list-style-type: block;
+  padding-left: 0;
+  /* Change location of bar in  nav bar*/
+  margin: 1.9%;
+}
+.ucsd-nav-right__item {
+  display: inline-block;
+}
+.ucsd-nav-right__item {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 0 10px;
+  color: #5c6772;
+  cursor: pointer; /* Tells the browser that the cursor should be a pointer on hover */
+}
+.ucsd-nav-right__item:hover{
+  color:#040505;
+}
+.ucsd-nav-right__item .ucsd-button {
+  padding: 0 20px;
+  margin: 0 10px;
+  color: white;
+  height: 0px;
+}
+.ucsd-nav .ucsd-logo {
+  padding-top: 10px;
+  padding-left: 16px;
+  line-height: 36px;
+}
+/*FOOTER format*/
+.footer-distributed{
+    background-color: #10102F;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 0px 60px 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    overflow: hidden;
+
+}
+/* Footer left */
+.footer-distributed .footer-left{
+    float: left;
+    width: 50%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.
+/* Logo */
+
+.footer-distributed h3{
+    color:  #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+    color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+    color:  #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a{
+    display:inline-block;
+    line-height: 0.8;
+    text-decoration: none;
+    color:  inherit;
+}
+.footer-links a:hover{
+        opacity: 0.7;
+    }
+.footer-distributed .footer-connect{
+    color:  white;
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 42px;
+    margin: 0;
+}
+
+/* Footer social icons */
+
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 1px;
+  border-radius: 20px;
+}
+
+/* Add a hover effect */
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* Twitter */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+/* Footer Right */
+
+.footer-distributed .footer-right{
+    float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-distributed .footer-right p{
+    display: block;
+    vertical-align: top;
+    margin: 20px 15px 0 0;
+    color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+    margin-top: 20px;
+    display: block;
+}
+
+.footer-distributed form input{
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font: inherit;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #323232;
+    width: 410px;
+    padding: 10px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+    color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+    color:  #5c666b;
+    opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+    color:  #5c666b;
+}
+
+.footer-distributed form input{
+    height: 55px;
+    margin-bottom: 15px;
+}
+.footer-distributed form button{
+    border-radius: 3px;
+    background-color: #4C4C4C;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: right;
+}
+form button:hover{
+        opacity: 0.7;
+    }
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media screen and (max-width: 950px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-company-name{
+        font-size: 12px;
+    }
+
+    .footer-distributed form input{
+        width: 300px;
+    }
+    .footer-distributed form button{
+        padding: 10px 35px;
+    }
+    .footer-distributed .footer-connect{
+      font:bold;
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .footer-distributed{
+        padding: 15px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right{
+        float: none;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .footer-distributed .footer-left{
+        width: auto;
+        margin-bottom: 5px;
+    }
+
+    .footer-distributed form button{
+        float: none;
+        cursor: pointer;
+    }
+    form button:hover{
+        opacity: 0.7;
+    }
+    .footer-distributed .footer-connect{
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+
+}
+
