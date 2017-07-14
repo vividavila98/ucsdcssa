@@ -1,26 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 /* Remove default browser margins and padding */
-html, body {
-  padding: 0;
+body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  vertical-align: top;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
-}
-
-h1, h2, h3, h4 {
-  text-transform: uppercase;
 }
 
 /*top of page*/
 .career-top {
-  background-image: url("../images/CF_back.jpg");
-  background-size: 100% 100%;
+  text-transform: uppercase;
   color: white;
   font-size: 20px;
+  background-color: blue;
   text-align: center;
+  background-image: url("../images/CF_back.jpg");
+  background-size: 100% 100%;
   padding-top: 175px;
-  padding-bottom: 175px;  
+  padding-bottom: 175px; 
 }
 
 .career-title {
@@ -38,6 +37,7 @@ h1, h2, h3, h4 {
 .about {
   padding: 60px;
   padding-right: 10%;
+  
 }
 
 .about-title {
@@ -46,6 +46,7 @@ h1, h2, h3, h4 {
   border: 2px solid grey;
   display: inline-block;
   font-size: 36px;
+  text-transform: uppercase;
 }
 
 .career-par {
@@ -65,6 +66,7 @@ h1, h2, h3, h4 {
 .attending-comp-holder {
   width: 95%;
   text-align: right;
+  padding-bottom: 30px;
 }
 
 .attending-title {
@@ -73,6 +75,8 @@ h1, h2, h3, h4 {
   display: inline-block;
   font-size: 36px;
   margin: 10px 20px;
+  text-transform: uppercase;
+  padding: 5px 20px;
 }
 
 .table {
@@ -88,11 +92,12 @@ h1, h2, h3, h4 {
 
 .table-title {
   border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
 }
 
 .table-content {
-   border-bottom: 1px solid #ddd;
-   border-top: 1px solid #ddd; 
+ border-bottom: 1px solid #ddd;
+ border-top: 1px solid #ddd; 
 }
 .left-content {
   border-right: 1px solid #ddd; 
@@ -114,7 +119,6 @@ h1, h2, h3, h4 {
 
 .plan-ahead {
   width:12em;
-  height: 55px;
   text-align: right;
   display: inline-block;
   padding-right: 5px;
@@ -123,76 +127,97 @@ h1, h2, h3, h4 {
 
 .download-button {
   width: 20em;
-  height: 55px;
   text-align: center;
   background-color: white;
   color: black;
   display: inline-block;
-  padding-top: 12px;
+  padding: 15px 0px;
+  text-transform: uppercase;
+}
+.faq {
+  margin: 0px 100px;
+}
+.faq-title {
+  border: 2px solid grey;
+  padding: 10px 20px;
+  margin: 30px 0px;
+  display: inline-block;
 }
 
 /* Style the tab */
 .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin: 0px auto;
+  width: 604px;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
+/*register txt */
+.register-holder {
+  width:100%;
+}
+.register { 
+  display: inline-block;
+  background: #FFD700;   
+  width: 604px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  padding: 15px 0px;
+  text-transform: uppercase;
+  font-size: 26px;
+
+}
 /* Style the tab content */
 .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-    text-align: center;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  text-align: center;
 }
 
 .mailing, .payment, .bring, .info {
   display: inline-block;
   width: 300px;
-  height: 200px;
+  height: 230px;
   text-align: center;
 }
 
 .bottom-text {
- margin: auto;
+ margin: 30px auto;
+
  width: 604px;
 }
 
 .tabcontent h3 {
-   background: darkblue;
-   color: white;
-   font-size: 26px; 
-}
-
-/*register txt */
-.register { 
-  display: inline-block;
-   background: yellow;   
-   width: 604px;
-   margin-top: 30px;
-
+ background-color: 10102F;
+ color: white;
+ font-size: 26px; 
+ padding: 5px 0px;
+ text-transform: uppercase;
 }
 
 /* HEADER Format */
