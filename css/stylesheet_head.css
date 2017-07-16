@@ -26,6 +26,7 @@ html, body {
 @media screen and (max-width: 950px) {
   .ucsd-nav-right a {display: none;}
   .ucsd-nav a.icon {
+    top: 3%;
     float: right;
     display: block;
   }
@@ -41,7 +42,7 @@ html, body {
     margin-right: 10px;
     position: absolute;
     right: 0;
-    top: 12px;
+    top: 3%;
   }
   .ucsd-nav.responsive a {
     margin-right: 22px;
@@ -73,6 +74,7 @@ html, body {
   padding-left: 0;
   /* Change location of bar in  nav bar*/
   margin: 1.9%;
+  top: 3%;
 }
 .ucsd-nav-right__item {
   display: inline-block;
