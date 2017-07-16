@@ -1,52 +1,83 @@
-.side-menu-wrapper { /* style menu wrapper */
-    overflow: hidden;
-    background: rgba(0,0,0,.95);
-    padding: 40px 0 0 40px;
-    position: fixed; /* Fixed position */
-    top: 0;
-    left: -290px; /* Sidebar initial position. "right" for right positioned menu */
-    height: 100%;
-    z-index: 2;
-    transition: 0.5s; /* CSS transition speed */
-    width: 250px;
-    font: 20px "Courier New", Courier, monospace;
+/* Font imports */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+/* Remove default browser margins and padding */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
 }
-.side-menu-wrapper > ul{ /* css ul list style */
-    list-style:none;
-    padding:0;
-    margin:0;
-    overflow-y: auto; /* enable scroll for menu items */
-    width:500px; /* this width will hide scroll bar */
-    height:95%;
+/* Hero section */
+.ucsd-hero {
+   color: white;
+   background-color: #10102F; /*fallback if the background image isn't there*/
 }
-.side-menu-wrapper > ul > li > a { /* links */
-    display: block;
-    border-bottom: 1px solid #131313;
-    padding: 6px 4px 6px 4px;
-    color: #989898;
-    transition: 0.3s;
-    text-decoration: none;
+.ucsd-hero-content {
+  padding-top: 260px;
+  padding-bottom: 260px;
+  text-align: center;
 }
-.side-menu-wrapper > a.menu-close { /* close button */
-    padding: 8px 0 4px 23px;
-    color: #6B6B6B;
-    display: block;
-    margin: -30px 0 -10px -20px;
-    font-size: 35px;
-    text-decoration: none;
+.ucsd-title {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 300;
 }
+.ucsd-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.ucsd-button {
+  display: inline-block;
+  padding: 0 28px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  height: 50px;
+  font-size: 1rem;
+  border-radius: 25px;
+  background-color: #34699A;
+  color: white;
+  border: none;
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  text-align:center;
+  vertical-align:middle;
 
-.side-menu-overlay { /* overlay */
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,.7);
-    overflow-y: auto;
-    overflow-x: hidden;
-    text-align: center;
-    opacity: 0;
-    transition: opacity 1s;
+}
+.ucsd-button:hover{
+  background-color: #0e4374;
+}
+.ucsd-info {
+  max-width: 1100px;
+  margin: 10px auto; /*100px top and bottom, auto left and right allows it to center*/
+  padding: 0 15px; /* For when the window is smaller, doesn't but up against the edges */
+}
+.ucsd-italic {
+  font-style: italic;
+}
+/* Split left/right */
+.ucsd-half {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ucsd-half-content {
+  font-size: 18px;
+  color: #5c6772;
+}
+.ucsd-half-content-heading {
+  font-weight: 300;
+  font-size: 42px;
+}
+.ucsd-hero2 {
+   color: white;
+   background-color: #FFFFFF; 
+}
+.ucsd-computer-image {
+  width: 100%;
 }
