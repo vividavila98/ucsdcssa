@@ -159,8 +159,9 @@ html, body{
     margin-bottom: 15px;
 }
 .footer-distributed form button{
-    border-radius: 3px;
-    background-color: #4C4C4C;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 100px;
+    background-color: #34699A;
     color: #ffffff;
     border: 0;
     padding: 15px 50px;
