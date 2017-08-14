@@ -14,8 +14,9 @@ html, body {
    background-color: #10102F; /*fallback if the background image isn't there*/
 }
 .ucsd-hero-content {
-  padding-top: 230px;
-  padding-bottom: 230px;
+  margin-top: 60px;
+  padding-top: 175px;
+  padding-bottom: 180px;
   text-align: center;
 }
 .ucsd-title {
