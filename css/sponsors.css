@@ -2,14 +2,120 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 /* Remove default browser margins and padding */
 html, body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	
 }
+
+*{
+	bordser: 1px solid grey;
+	margin: 0px;
+	padding: 0px;
+}
+
 .cssa-spon{
-	padding-top: 100px;
-	padding-bottom: 500px;
-	background-color: white;
+
 }
+
+.spon-head{
+	height: 400px;
+	background-color: 10102F;
+	
+}
+
+.spon-mast{
+	padding: 20px; 
+}
+
+.spon-hold1{
+	min-height: 100px;
+}
+
+.spon-logo{
+	float: left;
+	margin-right: 20px;
+	width: 100px;
+	height: 100px;
+}
+
+.spon-logo img{
+	width: 100px;
+	height: 100px;
+}
+
+.spon-text{
+	padding: 20px;
+	padding-top: 30px;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+@media screen and (max-width: 600px) {
+	.spon-logo { 
+		float: none;
+		margin-right:0;
+		width:auto;
+		border:0; 
+		text-align: center;
+	}
+}
+
+.spon-hold2{
+	min-height: 60px;
+	padding-right: 20px;
+
+}
+
+.spon-name{
+	float: left;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+#alchemy{
+	padding-top: 15px;
+}
+
+.spon-butn{
+	float: right;
+	margin-top: 15px;
+
+}
+
+.spon-butn img{
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+}
+/* mess around with values when actual
+button pics are in */
+@media screen and (max-width: 400px) {
+	.spon-butn { 
+		float: none;
+		display: inline-block;
+	}
+	.spon-name{
+	}
+}
+
+.spon-blue{
+	color: white;
+	background-color: 10102F;
+}
+
+
+.spon-white{
+	color: 10102F;
+	background-color: white;
+
+}
+
+
