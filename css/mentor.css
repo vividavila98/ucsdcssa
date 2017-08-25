@@ -16,9 +16,12 @@ html, body {
 }
 
 .head{
-	background-color: 10102F;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	background-image: url("../images/mentor.jpeg");
+	font-size: 24px;
+  	text-align: center;
+  	background-size: 100% 150%;
+  	padding-top: 150px;
+  	padding-bottom: 150px; 
 
 }
 
@@ -51,13 +54,13 @@ html, body {
 }
 
 #sign-up-wrapper{
-	background-color: 10102F;
+	background-color: #10102F;
 
 }
 
 .sign-up{
 	padding: 20px 60px;
-	background-color: 10102F;
+	background-color: #10102F;
 	max-width: 700px;
 	margin: 0 auto;
 	padding-bottom: 30px;
