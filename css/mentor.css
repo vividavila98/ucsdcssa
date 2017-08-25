@@ -8,8 +8,115 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
-.cssa-events{
-	padding-top: 100px;
-	padding-bottom: 500px;
+.cssa-mentor{
+	padding-top: 60px;
 	background-color: white;
+	text-align: center;
+
+}
+
+.head{
+	background-color: 10102F;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+}
+
+.head h1{
+	border: 2px solid white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	width: 320;
+	margin: 0 auto;
+	color: white
+}
+
+.about{
+	padding:20px 60px;
+	background-color: white;
+	max-width: 700px;
+	text-align: center;
+	display: inline-block;
+}
+
+.about h1{
+	border-bottom: 2px solid black;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+.about h2{
+	font-weight: bolder;
+}
+
+#sign-up-wrapper{
+	background-color: 10102F;
+
+}
+
+.sign-up{
+	padding: 20px 60px;
+	background-color: 10102F;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+}
+
+.sign-up h1{
+	text-transform: uppercase;
+	color: white;
+	border-bottom: 2px solid white;
+	width: auto;
+}
+
+.sign-up p{
+	color: white;
+}
+
+.ment-container1{
+	text-align: center;
+}
+
+.ment-container1 h2{
+	display: inline-block;
+	background-color: white;
+	color: 10102F;
+	margin: 10px 10px;
+	padding: 5px 25px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 900;
+
+}
+
+#know-more-wrapper{
+	background color: white;
+}
+
+.know-more{
+	padding: 20px 60px;
+	max-width: 700px;
+	margin: 0 auto;
+	
+}
+
+.know-more h1{
+	border-bottom: 2px solid #10102F;
+	color: #10102F;
+	text-transform: uppercase;
+
+}
+
+.ment-container2{
+text-align: center;
+}
+
+.ment-container2 h2{
+		display: inline-block;
+	background-color: #10102F;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 15px;
+	margin: 10px 10px;
 }
