@@ -23,6 +23,8 @@ html, body {
 .spon-head{
 	height: 400px;
 	background-image: url("../images/sponsor.jpeg");
+	background-position: 0 -25;
+    background-size: contain;
 	font-size: 24px;
   	text-align: center;
   	background-size: 100% 150%;
@@ -30,12 +32,20 @@ html, body {
 	
 }
 
+.sponsors-wrapper{
+	text-align: center;
+	margin: 0px auto;
+}
+
 .spon-mast{
 	padding: 20px; 
+	display: inline-block;	
+
 }
 
 .spon-hold1{
 	min-height: 100px;
+	max-width: 700px;
 }
 
 .spon-logo{
@@ -71,7 +81,7 @@ html, body {
 .spon-hold2{
 	min-height: 60px;
 	padding-right: 20px;
-
+	max-width: 700px;
 }
 
 .spon-name{
@@ -96,8 +106,8 @@ html, body {
 
 .spon-butn img{
 	display: inline-block;
-	width: 100px;
-	height: 20px;
+	width: 150px;
+	height: 40px;
 }
 /* mess around with values when actual
 button pics are in */
