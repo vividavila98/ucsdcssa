@@ -9,7 +9,7 @@ html, body {
   font-size: 14px;
 }
 .cssa-mentor{
-	padding-top: 60px;
+	padding-top: 70px;
 	background-color: white;
 	text-align: center;
 
@@ -17,12 +17,25 @@ html, body {
 
 .head{
 	background-image: url("../images/mentor.jpeg");
+	background-position: center center;
+    background-attachment: fixed;
+    background-size: contain;
 	font-size: 24px;
   	text-align: center;
-  	background-size: 100% 150%;
   	padding-top: 150px;
-  	padding-bottom: 150px; 
+  	padding-bottom: 100px;
 
+}
+
+@media screen and (max-width: 700px) {
+	.head { 
+		background-size: cover;
+	}
+}
+@media screen and (min-width: 800px) {
+	.head { 
+		background-size: cover;
+	}
 }
 
 .head h1{
@@ -32,7 +45,7 @@ html, body {
 	text-align: center;
 	width: 320;
 	margin: 0 auto;
-	color: white
+	color: white;
 }
 
 .about{

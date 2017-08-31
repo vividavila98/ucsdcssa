@@ -17,6 +17,7 @@ html, body {
 }
 
 .cssa-spon{
+	padding-top: 70px;
 	
 }
 
@@ -26,10 +27,20 @@ html, body {
 	background-position: 0 -25;
     background-size: contain;
 	font-size: 24px;
-  	text-align: center;
-  	background-size: 100% 150%;
+  	text-align: center;  	
+  	overflow: hidden;
 
-	
+}
+
+@media screen and (max-width: 700px) {
+	.spon-head { 
+		background-size: cover;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.spon-head { 
+		background-size: cover;
+	}
 }
 
 .sponsors-wrapper{
@@ -116,7 +127,11 @@ button pics are in */
 		float: none;
 		display: inline-block;
 	}
+	.spon-butn img{
+		padding-top: 10px;
+	}
 	.spon-name{
+		margin: 0px auto;
 	}
 }
 

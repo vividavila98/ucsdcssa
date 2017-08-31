@@ -8,8 +8,143 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
+
+*{
+ bsorder: 1px solid black;
+}
+
 .cssa-events{
-	padding-top: 100px;
-	padding-bottom: 500px;
+	padding-top: 70px;
+	padding-bottom: 200px;
 	background-color: white;
+}
+
+.events-head{
+	padding: 100px 0;
+	background-image: url("../images/CF_BG1.PNG");
+}
+
+.events-head h1{
+	text-transform: uppercase;
+	border-bottom: 2px solid white;
+	color: white;
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+	font-size: 45px;
+
+}
+
+.events-buttons {
+	text-align: center;
+}
+
+.events-buttons h3{
+	display: inline-block;
+	color: white;
+	padding: 10px 10px;
+	font-size: 20px;
+}
+
+/* End of the title */
+
+.cssa-events-hold{
+	padding: 50px 0;
+	text-align: center;
+
+}
+
+.cssa-events-hold h2{
+	text-transform: uppercase;
+	width: 150px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.event{
+	display: inline-block;
+	width: 400px;
+	padding: 20px 50px;
+
+
+}
+
+.event h1{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.event img{
+	width: 100%;
+	height: 200px;
+}
+
+.info-hold{
+	text-align: left;
+	width: 100%;
+	vertical-align: top;
+}
+
+.info-hold2{
+	width: 120px;
+	display: inline-block;
+}
+
+.info-date, .info-time{
+	display: inline-block;
+
+}
+
+.info-date img, .info-time img{
+	width: 50px;
+	height: 50px;
+}
+
+.info-date h3, .info-time h3 {
+	width: 50px;
+	float: right;
+}
+
+.info-text{
+	vertical-align: top;
+	display: inline-block;
+	height: 110px;
+	width: 270px;
+}
+
+.info-text p{
+	text-align: center;
+	font-size: 15px;
+}
+
+.loc-fb-hold{
+ width: 100%;
+ text-align: left;
+}
+
+.location {
+	display: inline-block;
+	text-align: left;
+}
+
+.location img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+
+.location h3{
+	float: left;
+}
+
+.loc-fb-hold h4{
+	background-color: lightblue;
+	color: white;
+	float: right;
+	position: relative;
+	top: -6px;
+	padding: 5px 5px;
+	z-index: 1;
+	
+
 }
