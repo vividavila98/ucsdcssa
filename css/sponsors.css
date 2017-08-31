@@ -24,7 +24,8 @@ html, body {
 .spon-head{
 	height: 400px;
 	background-image: url("../images/sponsor.jpeg");
-	background-position: 0 -25;
+	background-position: center center;
+    background-attachment: fixed;
     background-size: contain;
 	font-size: 24px;
   	text-align: center;  	
