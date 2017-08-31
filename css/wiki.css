@@ -17,8 +17,10 @@ html, body {
 .Flexible-container iframe,
 .Flexible-container object,
 .Flexible-container embed {
+  margin-left: 5%;
+  margin-right: 5%;
   top: 0;
-  left: 0;
-  width: 50%;
+  position: right;
+  width: 900px;
   height: 100%;
 }
