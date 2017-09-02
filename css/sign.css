@@ -1,0 +1,26 @@
+/* Flexible iFrame */
+/* Font imports */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+/* Remove default browser margins and padding */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
+}
+.Flexible-container {
+  padding-bottom: 650px;
+  padding-top: 0px;
+  height: 0;
+}
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+  margin-left: 5%;
+  margin-right: 5%;
+  top: 0;
+  position: right;
+  width: 900px;
+  height: 100%;
+}
