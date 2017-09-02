@@ -49,7 +49,7 @@ html, body {
 }
 
 .about{
-	padding:20px 60px;
+	padding:20px 40px;
 	background-color: white;
 	max-width: 700px;
 	text-align: center;
@@ -73,11 +73,12 @@ html, body {
 }
 
 .sign-up{
-	padding: 20px 60px;
+	padding: 20px 25px;
 	background-color: #10102F;
 	max-width: 700px;
 	margin: 0 auto;
-	padding-bottom: 30px;
+	border: 0;
+	padding-bottom: 50px;
 	font-size: 20px;
 }
 
@@ -93,6 +94,7 @@ html, body {
 }
 
 .ment-container1{
+	display: inline-block;
 	text-align: center;
 }
 
@@ -145,7 +147,7 @@ html, body {
 }
 
 .know-more{
-	padding: 20px 60px;
+	padding: 20px 40px;
 	max-width: 700px;
 	margin: 0 auto;
 	font-size: 18px;
