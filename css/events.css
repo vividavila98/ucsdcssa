@@ -2,15 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 /* Remove default browser margins and padding */
 html, body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 14px;
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
 }
 
 *{
- bsorder: 1px solid black;
+	bsorder: 1px solid black;
 }
 
 .cssa-events{
@@ -63,9 +63,8 @@ html, body {
 
 .event{
 	display: inline-block;
-	width: 400px;
+	width: 350px;
 	padding: 20px 50px;
-
 
 }
 
@@ -109,7 +108,7 @@ html, body {
 	vertical-align: top;
 	display: inline-block;
 	height: 110px;
-	width: 270px;
+	width: 220px;
 }
 
 .info-text p{
@@ -118,8 +117,8 @@ html, body {
 }
 
 .loc-fb-hold{
- width: 100%;
- text-align: left;
+	width: 100%;
+	text-align: left;
 }
 
 .location {
