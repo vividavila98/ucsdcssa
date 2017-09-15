@@ -16,7 +16,7 @@ html, body{
     text-align: left;
     padding: 0px 60px 10px;
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 3px solid black;
     overflow: hidden;
 
 }
