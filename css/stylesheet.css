@@ -39,7 +39,7 @@ html, body {
   letter-spacing: 1.5px;
   height: 50px;
   font-size: 1rem;
-  border-radius: 25px;
+  border-radius: 5px;
   background-color: #34699A;
   color: white;
   border: none;
@@ -55,13 +55,14 @@ html, body {
 }
 .ucsd-button-order{
     font-family: 'Open Sans', sans-serif;
-    border-radius: 100px;
+    border-radius: 5px;
     background-color: #34699A;
     color: #ffffff;
     border: 0;
     padding: 15px 40px;
     font-weight: bold;
     float: left;
+    font-size: 14px;
 }
 .ucsd-button-order:hover{
   background-color: #0e4374;
