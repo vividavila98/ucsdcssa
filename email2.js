@@ -1,4 +1,4 @@
-function validEmail(email2) { // see:
+function validEmail(email) { // see:
   var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
   return re.test(email);
 }
@@ -45,7 +45,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   event.preventDefault();           // we are submitting via xhr below
   var data = getFormData();         // get the values submitted in the form
   if( !validEmail(data.email) ) {   // if email is not valid show error
-    document.getElementById('email-invalid2').style.display = 'block';
+    document.getElementById('email-invalid').style.display = 'block';
     return false;
   } else {
     var url = event.target.action;  //
@@ -57,7 +57,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
         console.log( xhr.status, xhr.statusText )
         console.log(xhr.responseText);
         document.getElementById('gform2').style.display = 'none'; // hide form
-        document.getElementById('thankyou_message2').style.display = 'block';
+        document.getElementById('thankyou_message').style.display = 'block';
         return;
     };
     // url encode form data for sending as post data
