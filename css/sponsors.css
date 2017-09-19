@@ -60,6 +60,16 @@ html, body {
 	max-width: 700px;
 }
 
+.spon-name-for-small-screen{
+	display: none;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: bolder;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
 .spon-logo{
 	float: left;
 	margin-right: 20px;
@@ -78,16 +88,6 @@ html, body {
 	text-align: center;
 	font-weight: bold;
 
-}
-
-@media screen and (max-width: 600px) {
-	.spon-logo { 
-		float: none;
-		margin-right:0;
-		width:auto;
-		border:0; 
-		text-align: center;
-	}
 }
 
 .spon-hold2{
@@ -111,7 +111,7 @@ html, body {
 }
 
 .spon-butn{
-	float: right;
+	float: none;
 	margin-top: 15px;
 
 }
@@ -120,20 +120,6 @@ html, body {
 	display: inline-block;
 	width: 150px;
 	height: 40px;
-}
-/* mess around with values when actual
-button pics are in */
-@media screen and (max-width: 400px) {
-	.spon-butn { 
-		float: none;
-		display: inline-block;
-	}
-	.spon-butn img{
-		padding-top: 10px;
-	}
-	.spon-name{
-		margin: 0px auto;
-	}
 }
 
 .spon-blue{
@@ -146,6 +132,36 @@ button pics are in */
 	color: 10102F;
 	background-color: white;
 
+}
+
+@media screen and (max-width: 600px) {
+	.spon-logo { 
+		float: none;
+		margin-right:0;
+		width:auto;
+		border:0; 
+		text-align: center;
+	}
+	.spon-name-for-small-screen {
+		display: block;
+	}
+	.spon-name {
+		display: none;
+		height: auto;
+	}
+	.spon-butn { 
+		max-width: 200px;
+		display: inline-block;
+		text-align: center;
+		float: none;
+		padding-left: 30px;
+	}
+	.spon-butn img{
+		padding-top: 10px;
+	}
+	.spon-name{
+		margin: 0px auto;
+	}
 }
 
 
