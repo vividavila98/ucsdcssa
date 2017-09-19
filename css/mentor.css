@@ -46,7 +46,8 @@ html, body {
 	text-transform: uppercase;
 	font-weight: bolder;
 	text-align: center;
-	width: 510px;
+	width: 90%;
+	max-width: 510px;
 	margin: 0 auto;
 	color: white;
 }
@@ -93,6 +94,9 @@ html, body {
 	border: 2px solid white;
 	width: 300px;
 	margin: 0 auto;
+	width: 90%;
+	max-width: 310px;
+
 }
 
 .sign-up p{
@@ -102,10 +106,10 @@ html, body {
 .ment-container1{
 	display: inline-block;
 	text-align: center;
-}
 
+}
 .mentor-button{
-	margin-right: 20px;
+	margin-right: 25px;
 	display: inline-block;
 	padding: 10px 35px;
   	text-transform: uppercase;
@@ -125,6 +129,15 @@ html, body {
 }
 .mentor-button:hover{
 	opacity: 0.7;
+}
+@media screen and (max-width: 700px) {
+	.mentor-button {
+		margin-right: 1px;
+		padding: 10px 20px;
+	} 
+	.mentee-button {
+		padding: 10px 20px;
+	}  
 }
 .mentee-button{
 	display: inline-block;
@@ -147,6 +160,12 @@ html, body {
 .mentee-button:hover{
 	opacity: 0.7;
 }
+@media screen and (max-width: 700px) {
+	
+	.mentee-button {
+		padding: 10px 20px;
+	}  
+}
 
 #know-more-wrapper{
 	background color: white;
@@ -164,8 +183,10 @@ html, body {
 	border: 2px solid #10102F;
 	color: #10102F;
 	text-transform: uppercase;
+	max-width: 95%;
 	width: 400px;
 	margin: 0 auto;
+
 }
 
 .ment-container2{
@@ -174,7 +195,6 @@ html, body {
 }
 
 .ment-container2 h2{
-
 	display: inline-block;
 	background-color: #10102F;
 	border-radius: 5px;
@@ -182,6 +202,7 @@ html, body {
 	padding: 10px 15px;
 	margin: 10px 10px;
 }
+
 .button {
 	display: inline-block;
 	padding: 8px 25px;
@@ -199,7 +220,17 @@ html, body {
   	text-align:center;
   	vertical-align:middle;
   	font-weight: 900;
+  	margin: 0 auto;
 }
 .button:hover {
 	opacity: 0.7;
+}
+@media screen and (max-width: 700px) {
+	.button {
+		display: inline-block;
+		margin-right: 1px;
+		padding: 8px 5px;
+		font-size: 14px;
+		width: 100%;
+	} 
 }

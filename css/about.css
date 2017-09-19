@@ -76,10 +76,10 @@ html, body {
 }
 .about-jump-title {
   color: white;
-	min-width: 310px;
-  max-width: 520px;
+  width: 90%;
+  max-width: 350px;
   display: inline-block;
-	text-align: right;
+	text-align: center;
  	border: 2px solid white;
  	font-size: 40px;
  	margin: 0 auto;
@@ -113,7 +113,8 @@ html, body {
     font-size: 14px;
     font-weight: normal;
     color: #323232;
-    width: 350px;
+    width: 85%;
+    max-width: 350px;
     padding: 5px;
 }
 
