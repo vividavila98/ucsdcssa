@@ -22,15 +22,28 @@ html, body {
 }
 
 .spon-head{
-	height: 400px;
-	background-image: url("../images/sponsor.jpeg");
-	background-position: center center;
-    background-attachment: fixed;
-    background-size: contain;
+	margin-top: 0px;
+	padding-top: 100px;
+	padding-bottom: 200px;
+	background-image: url("../images/man.jpg");
+	background-position: center;
+    background-size: 100% 100%;
 	font-size: 24px;
   	text-align: center;  	
   	overflow: hidden;
 
+}
+.spon-head h1 {
+	padding-top: 50px;
+	display: inline-block;
+	border-bottom: 2px solid white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-align: center;
+	width: 90%;
+	max-width: 355px;
+	margin: 0 auto;
+	color: white;
 }
 
 @media screen and (max-width: 700px) {
