@@ -34,6 +34,7 @@ html, body {
 
 }
 .spon-head h1 {
+	font-family: 'Source Sans Pro', sans-serif;
 	padding-top: 50px;
 	display: inline-block;
 	border-bottom: 2px solid white;
@@ -95,9 +96,14 @@ html, body {
 	height: 100px;
 }
 
-.spon-text{
+.spon-text p{
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	font-size: 15px;
 	padding: 20px;
 	padding-top: 30px;
+	padding: 20px 50px;
+	margin: 0 auto;
 	text-align: center;
 	font-weight: bold;
 
