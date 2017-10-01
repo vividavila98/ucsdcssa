@@ -12,17 +12,20 @@
   <div class="cssa-events">
     <div class="events-head">
       <h1>Upcoming Events</h1>
-      <div class="events-buttons">
+      <!--<div class="events-buttons">
        <button class="tablinks" onclick="openEvents(event, 'CSSAEvents')" id="defaultOpen">CSSA Events</button>
        <button class="tablinks" onclick="openEvents(event, 'sponsorEvents')">Sponsor Events</button>
-     </div>
+     </div>-->
    </div>
 
    <div id="CSSAEvents" class="tabcontent">
      <div class="cssa-events-hold">
       <h2 id="CSSA_evt_title">CSSA Events</h2>
-
-      <iframe src="https://calendar.google.com/calendar/embed?title=CSSA%40UCSD%20Events%20Calendar&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=MONTH&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=t3s7ecijq7fih1sill8cgufdt8%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style="border-width:0" height="600" frameborder="0" scrolling="no"></iframe>
+     	<div class="cal">
+      		<div data-tockify-component="calendar" data-tockify-calendar="cssaucsd"></div>
+  	  	</div>
+	
+      <!--<iframe src="https://calendar.google.com/calendar/embed?title=CSSA%40UCSD%20Events%20Calendar&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;mode=MONTH&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=t3s7ecijq7fih1sill8cgufdt8%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=America%2FLos_Angeles" style="border-width:0" height="600" frameborder="0" scrolling="no"></iframe>-->
       <!--<div class="event">
         <h1>Krispy Kreme Fundraiser</h1>
         <img src="images/am-logo.png">
@@ -91,7 +94,7 @@
 </script>
 
 </html>
-
+<script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
 <script type="text/javascript">
   function openEvents(evt, Eventname) {
     // Declare all variables

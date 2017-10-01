@@ -51,8 +51,6 @@ html, body {
 .cssa-events-hold{
 	padding: 50px 0;
 	text-align: center;
-
-
 }
 
 #CSSA_evt_title {
@@ -75,6 +73,13 @@ html, body {
 .cssa-events-hold iframe{
 	max-width: 800px;
 	width: 80%;
+}
+.cal{
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 850px;
+	margin: auto;
 }
 
 .event{
@@ -163,19 +168,27 @@ html, body {
 }
 
 .sponsor-events {
-	max-width: 800px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	max-width: 100%;
 	margin: 0 auto;
+	/*background-color: #10102F;*/
 }
 
 .sponsor-events h1 {
+	/*color: white;*/
 	text-align: center;
+	/*border: 2px solid white;*/
 	border: 2px solid black;
 	width: 200px;
 	margin: 30 auto;
 }
 
 table {
-	width: 100%;
+	/*color: white;*/
+	display: block;
+	margin: auto;
+	width: 800px;
 }
 
 tr {
