@@ -52,6 +52,7 @@ html, body {
 	padding: 50px 0;
 	text-align: center;
 
+
 }
 
 #CSSA_evt_title {
@@ -61,6 +62,7 @@ html, body {
 	font-size: 30px;
 	border: 2px solid black;
 	font-weight: bolder;
+	margin-bottom: 25px;
 }
 
 .cssa-events-hold h2{
@@ -68,6 +70,11 @@ html, body {
 	width: 150px;
 	margin: 0 auto;
 	text-align: center;
+
+}
+.cssa-events-hold iframe{
+	max-width: 800px;
+	width: 80%;
 }
 
 .event{
@@ -198,6 +205,7 @@ tr {
 .tableContent{
 	text-align: center;
 }
+
 
 button {
 	background-color: #10102F;
