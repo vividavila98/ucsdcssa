@@ -11,7 +11,7 @@ html, body {
   background-color: white;
   padding: 0px 0px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   border-bottom: 1px solid #5c6772;
   max-height: 90%;
