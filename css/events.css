@@ -12,6 +12,41 @@ html, body {
 *{
 	bsorder: 1px solid black;
 }
+.fb-para {
+	display: block;
+  padding: 3%;
+  margin: auto;
+  position: relative;
+  font-size: 24px;
+  color: black;
+  text-align: left;
+  width: 100%;
+	max-width: 850px;
+	text-decoration: none;
+}
+p.fb-para {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 0;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+.event-button {
+  margin-top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  background-color: #34699A;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 35px;
+  font-weight: bold;
+  font-size: 13px;  text-decoration: none;
+  text-align:center;
+  display: table;
+}
+.event-button:hover{
+  opacity: 0.7;
+}
+
 
 .cssa-events{
 	padding-top: 70px;
@@ -51,6 +86,7 @@ html, body {
 .cssa-events-hold{
 	padding: 50px 0;
 	text-align: center;
+	padding-bottom: 20px;
 }
 
 #CSSA_evt_title {
@@ -226,7 +262,7 @@ button {
 	background-color: #10102F;
 	border: none;
 	padding: 10px 10px;
-	margin: 5px 10px;
+	margin: 5px 0px;
 	color: white;
 	font-size: 15px;
 }
