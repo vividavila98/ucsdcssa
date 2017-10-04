@@ -50,7 +50,7 @@ p.fb-para {
 
 .cssa-events{
 	padding-top: 70px;
-	padding-bottom: 200px;
+	padding-bottom: 0px;/*200px*/
 	background-color: white;
 }
 
