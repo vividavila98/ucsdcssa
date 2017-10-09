@@ -147,6 +147,15 @@ html, body {
 	}
 
 }
+@media screen and (max-width: 470px) {
+	.head h1{
+		max-width: 390px;
+		color: white;
+		white-space: nowrap;
+		font-size: 36px;
+	}
+
+}
 .mentee-button{
 	display: inline-block;
 	padding: 10px 35px;
