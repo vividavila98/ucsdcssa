@@ -92,9 +92,17 @@ html, body {
   font-size: 18px;
   color: #5c6772;
 }
-.ucsd-half-content-heading {
+.ucsd-half-content-heading{
   font-weight: 300;
   font-size: 42px;
+}
+.ucsd-half-content-heading h4{
+  margin: 40px 0;
+  padding-top: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.ucsd-half-content-heading h6{
+  margin-top: 5px;
 }
 .ucsd-half-honor {
   width: 80%;
@@ -111,6 +119,11 @@ html, body {
    color: white;
    background-color: #FFFFFF; 
 }
+.ucsd-hero3 {
+  border-top: 5px solid #10102F; 
+   color: white;
+   background-color: #FFFFFF; 
+}
 .ucsd-computer-image {
   width: 100%;
 }
@@ -122,4 +135,36 @@ html, body {
 }
 .ucsd-opsi-image {
   width: 500%;
-  
+}
+@media screen and (max-width: 950px) {
+  .ucsd-half {
+    width: 100%;
+    display: block;
+    vertical-align: none;
+  }
+  .ucsd-half-content-heading h4{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ucsd-half-content-heading h6{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ucsd-half-content p{
+    display: block;
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+  }
+  .ucsd-button-order{
+    float: none;
+    margin: auto; 
+    display: table;
+  }
+  .ucsd-computer-image{
+    width: 100%;
+    text-align: center;
+  }
+}
