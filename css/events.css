@@ -86,7 +86,7 @@ p.fb-para {
 .cssa-events-hold{
 	padding: 50px 0;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 #CSSA_evt_title {
@@ -220,7 +220,25 @@ p.fb-para {
 	width: 200px;
 	margin: 30 auto;
 }
+.past-events {
+	border-top: 2px solid #10102F;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	max-width: 100%;
+	margin: 0 auto;
+	/*background-color: #10102F;*/
+}
 
+.past-events h2 {
+	text-align: center;
+	border: 2px solid black;
+	font-size: 30px;
+	border: 2px solid black;
+	font-weight: bolder;
+	margin-bottom: 25px;
+	width: 200px;
+	margin: 30 auto;
+}
 table {
 	/*color: white;*/
 	display: block;
@@ -235,25 +253,34 @@ tr {
 }
 
 .headerTab {
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-weight: bolder;
-	font-size: 15px;
-	width: 33%;
+	font-size: 20px;
+	width: 30%;
 }
 
 #dateTab {
+	font-family: 'Open Sans', sans-serif;
 	background-color: lightblue;
 }
 
 #eventTab {
+	width: 39%;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
 	background-color: yellow;
 }
 
 #locationTab {
+	width: 30%;
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
 	background-color: teal;
 }
 
 .tableContent{
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
 
