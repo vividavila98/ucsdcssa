@@ -20,13 +20,13 @@ html, body {
   font-size: 24px;
   color: black;
   text-align: left;
-  width: 90%;
-	max-width: 850px;
+  width: 100%;
+	max-width: 780px;
 	text-decoration: none;
 }
 p.fb-para {
 	font-family: 'Open Sans', sans-serif;
-	padding-top: 0;
+	padding-top: 20px;
 	font-size: 20px;
 	padding-bottom: 10px;
 }
@@ -64,7 +64,7 @@ p.fb-para {
 	border-bottom: 2px solid white;
 	color: white;
 	text-align: center;
-	width: 400px;
+	width: 155px;
 	margin: 0 auto;
 	font-size: 45px;
 
@@ -92,7 +92,7 @@ p.fb-para {
 #CSSA_evt_title {
 	text-align: center;
 	border: 2px solid black;
-	width: 200px;
+	width: 350px;
 	font-size: 30px;
 	border: 2px solid black;
 	font-weight: bolder;
@@ -111,11 +111,11 @@ p.fb-para {
 	width: 80%;
 }
 .cal{
+	padding-top: 20px;
 	display: block;
 	margin: auto;
 	width: 100%;
-	max-width: 850px;
-	margin: auto;
+	max-width: 800px;
 	z-index: -1;
 }
 
