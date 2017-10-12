@@ -12,6 +12,13 @@ html, body {
 *{
 	bsorder: 1px solid black;
 }
+a:link{
+	color: black;
+}
+a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
 .fb-para {
 	display: block;
   padding: 3%;
