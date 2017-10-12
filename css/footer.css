@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 /* Remove default browser margins and padding */
 html, body{
-  padding: 0;
+  padding: auto;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
