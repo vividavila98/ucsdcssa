@@ -10,9 +10,6 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
-body{
-	padding-top:70px;
-}
 iframe {
-  padding-top:1000px;
+  padding-top:70px;
 }
