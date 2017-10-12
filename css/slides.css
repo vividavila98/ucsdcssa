@@ -4,7 +4,7 @@
 /* Remove default browser margins and padding */
 html, body {
   padding: 0;
-  padding-top:;
+  padding-top:300px;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
