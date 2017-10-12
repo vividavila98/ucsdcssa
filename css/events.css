@@ -223,7 +223,7 @@ p.fb-para {
 .past-events {
 	border-top: 2px solid #10102F;
 	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 75px;
 	max-width: 100%;
 	margin: 0 auto;
 	/*background-color: #10102F;*/
@@ -242,7 +242,7 @@ table {
 	/*color: white;*/
 	display: block;
 	margin: auto;
-	width: 900px;
+	width: 825px;
 	max-width: 95%;
 }
 
@@ -260,25 +260,27 @@ tr {
 }
 
 #dateTab {
+	width:33%;
 	font-family: 'Open Sans', sans-serif;
 	background-color: lightblue;
 }
 
 #eventTab {
-	width: 39%;
+	width: 33%;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 	background-color: yellow;
 }
 
 #locationTab {
-	width: 30%;
+	width: 33%;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
 	background-color: teal;
 }
 
 .tableContent{
+	padding-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 }
