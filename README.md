@@ -1,2 +1,4 @@
 # ucsdcssa
-Website for Cognitive Science Student Association @ UC San Diego
+GitHub Repo for CSSA@UCSD
+check out the live website at CSSA-UCSD.ORG
+

@@ -1,20 +1,111 @@
 <html lang="en">
 <head>
-  <title>CSSA Sponsors</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link href="css/sponsors.css" rel="stylesheet">
-  <div id="header"></div><br />
+	<title>CSSA Sponsors</title>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link href="css/sponsors.css" rel="stylesheet">
+	<link href="css/footer.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<div id="header"></div><br />
 </head>
+
 <body>
-  <div class="cssa-spon">
-    <h3> Sponsors Stuff</h3>
-  </div>
+	<div class="cssa-spon">
+		<div class="spon-head">	
+			<h1> CSSA Sponsors</h1>
+		</div>
+		<div class="sponsors-wrapper spon-white">
+			<div class="spon-mast spon-white">
+				<div class="spon-hold1">
+					<div class="spon-name-for-small-screen">
+						<h2>A.i.<br>Master</h2>
+					</div>
+					<div class="spon-logo">
+						<img src="images/am-logo.png">
+					</div>
+					<div class="spon-text">
+						<p>Ai-Master builds the most productive platform for learning topics related to AI. It combines interactive models, simple animations and insightful evaluations to provide you with the best way to learn.</p>
+					</div>
+				</div>
+				<div class="spon-hold2">
+					<div class="spon-name">
+						<h2>A.i.<br>Master</h2>
+					</div>
+					<div class="spon-butn">
+						<a href="http://ai-master.com/"><img src="images/website-cssa-blue.JPG"></a>
+						<img src="images/events-cssa-blue.JPG">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--<div class="sponsors-wrapper spon-blue">
+			<div class="spon-mast spon-blue">
+				<div class="spon-hold1">
+					<div class="spon-name-for-small-screen">
+						<h2>SD Alchemy</h2>
+					</div>
+					<div class="spon-logo">
+						<img src="images/alchemy-logo2.jpg">
+					</div>
+					<div class="spon-text">
+						<p>SD Alchemy is an open and innovative community of students of all disciplines that come together to develop student-run start-up projects.</p>
+					</div>
+				</div>
+				<div class="spon-hold2">
+					<div class="spon-name">
+						<h2 id="alchemy">SD Alchemy</h2>
+					</div>
+					<div class="spon-butn">
+						<a href="http://www.sdalchemy.com/"><img src="images/website-cssa-white.JPG"></a>
+						<img src="images/events-cssa-white.jpg">
+					</div>
+				</div>
+			</div>
+		</div>-->
+	</div>
 </body>
-<footer>
-  <div id="footer"></div>
+<footer class="footer-distributed">
+    <div class="footer-left">
+      <h3 style="padding-top: 20px;"><a href = "index.html"><img class="ucsd-logo" img src="images/TransparentWhite.png" style="width: 40%"></a></h3>
+      <p class="footer-links" style="padding-top: 20px;">
+        <a href = "index.html">Home</li></a>
+        ·
+        <!--<a href="conference.html">Conference</a>
+        ·-->
+        <a href="events.html">Events</a>
+        <!--·
+        <a href="wiki.html">Course Wiki</a>-->
+        ·
+        <a href="sponsors.html">Sponsors</a>
+        ·
+        <a href="mentor.html">Mentorship</a>
+        ·
+        <a href="about.html">About</a>
+      </p>
+    </div>
+    <div class="footer-right">
+      <p>Sign-up for Updates!</p>
+      <form id="gform" method="POST" class="pure-form pure-form-stacked"
+      action="https://script.google.com/macros/s/AKfycbxW-JNxgmn8sxAkOp9lgGHd-2HsW-c9yGKJ2j2YNjSkncJP6eo/exec">
+      <input type="text" name="email" placeholder="Email" />
+      <span id="email-invalid" style="display:none; color: white;">
+          Must be a valid email address. Please try again </span>
+      <button>Sign Up!</button>
+    </form>
+    <div style="display:none; color:white; font-size: 11px;" id="thankyou_message">
+        <h2>Thanks for connecting with us!</br>
+        We will get back to you soon!</h2>
+    </div>
+    <p class="footer-connect">Connect With Us!</p>
+      <a href="https://www.facebook.com/webraincogsci"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/cssaatucsd/"><i class="fa fa-instagram"></i></a>
+    <a href="http://linkedin.com/company/cssa-ucsd/"><i class="fa fa-linkedin"></i></a>
+  </div>
 </footer>
 </html>
 <script type="text/javascript">
-  $("#header").load("header.html"); 
-  $("#footer").load("footer.html"); 
+	$("#header").load("header.html"); 
+</script>
+<script data-cfasync="false" type="text/javascript" src="email.js">
 </script>

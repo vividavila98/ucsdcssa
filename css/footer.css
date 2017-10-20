@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 /* Remove default browser margins and padding */
 html, body{
-  padding: 0;
+  padding: auto;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Source Sans Pro', sans-serif;
@@ -14,9 +14,9 @@ html, body{
     width: 100%;
     font: bold 16px sans-serif;
     text-align: left;
-    padding: 0px 60px 10px;
+    padding: 15px 60px 10px;
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 3px solid black;
     overflow: hidden;
 
 }
@@ -60,7 +60,7 @@ html, body{
     color:  white;
     font-size: 14px;
     font-weight: normal;
-    padding-top: 42px;
+    padding-top: 40px;
     margin: 0;
 }
 
@@ -73,7 +73,7 @@ html, body{
   text-align: center;
   text-decoration: none;
   margin: 5px 1px;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 /* Add a hover effect */
@@ -126,7 +126,7 @@ html, body{
 
 .footer-distributed form input{
     display: block;
-    border-radius: 3px;
+    border-radius: 5px;
     box-sizing: border-box;
     background-color: white;
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
@@ -138,7 +138,7 @@ html, body{
     font-weight: normal;
     color: #323232;
     width: 410px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .footer-distributed ::-webkit-input-placeholder {
@@ -159,12 +159,14 @@ html, body{
     margin-bottom: 15px;
 }
 .footer-distributed form button{
-    border-radius: 3px;
-    background-color: #4C4C4C;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    background-color: #34699A;
     color: #ffffff;
     border: 0;
     padding: 15px 50px;
     font-weight: bold;
+    font-size: 13px;
     float: right;
 }
 form button:hover{

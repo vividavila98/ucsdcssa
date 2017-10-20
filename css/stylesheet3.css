@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 /* Remove default browser margins and padding */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -21,21 +26,23 @@ html, body {
   background-image: url("../images/CF_back.jpg");
   background-size: 100% 100%;
   size: 100%;
-  padding-top: 175px;
-  padding-bottom: 175px; 
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 150px; 
 }
 
 .career-title {
   width: 80%;
   max-width: 520px;
   text-align: center;
-  border: 3px solid white;
+  border: 1px solid white;
   display: inline-block;
 }
 
 .career-sub {
+  padding-top: 30px;
   text-align: center;
-  padding-top: 15px;
+  font-weight: lighter;
 }
 
 .about {
@@ -50,7 +57,7 @@ html, body {
   margin-top: 0px;
   padding-top: 0;
   text-align: center;
-  padding: 10px 10px;
+  padding: 5px 15px;
   border: 2px solid grey;
   display: inline-block;
   font-size: 40px;
@@ -74,19 +81,22 @@ html, body {
 }
 
 .attending-comp-holder {
-  width: 95%;
   padding-bottom: 30px;
   text-align: right;
+  max-width: 845px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .attending-title {
-  text-align: center;
-  border: 2px solid white;
-  font-size: 40px;
-  margin: 10px 20px;
-  text-transform: uppercase;
-  padding: 5px 20px;
-  display: inline-block;
+ display: inline-block;
+ text-align: right;
+ border: 2px solid white;
+ font-size: 40px;
+ margin: 10px 30px;
+ text-transform: uppercase;
+ padding: 5px 20px;
+ 
 }
 
 .table {
@@ -98,6 +108,7 @@ html, body {
   border-collapse: collapse;
   color: white;
   font-size: 20px;
+  max-width: 600px;
 }
 
 .table-title {
@@ -110,13 +121,16 @@ html, body {
  border-top: 1px solid #ddd; 
 }
 .left-content {
+  font-weight: lighter;
   border-right: 1px solid #ddd; 
 }
 
 .middle-content {
+  font-weight: lighter;
 }
 
 .right-content {
+  font-weight: lighter;
   border-left: 1px solid #ddd;
   color: lightblue;
 }
@@ -128,6 +142,7 @@ html, body {
 }
 
 .plan-ahead {
+  font-weight: lighter;
   text-align: right;
   display: inline-block;
   padding: 10px 10px;
@@ -136,13 +151,31 @@ html, body {
 .download-button {
   text-align: center;
   background-color: white;
+  vertical-align: top;
+  margin-top: 12px;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.download-button h2{
+  vertical-align: top;
   color: black;
   display: inline-block;
-  padding: 10px 20px;
   text-transform: uppercase;
-  vertical-align: top;
-  margin-top: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
+.download-button img {
+  vertical-align: top;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  padding-top: 10px;
+}
+
 .faq-back {
   background-image: url("../images/CF_FAQBG.png");
   background-size: 100% 100%;
@@ -170,12 +203,12 @@ html, body {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
   text-align: center;
   margin: 0px auto;
   width: 90%;
+  border-bottom: 2px solid black;
 }
+
 
 /* Style the buttons inside the tab */
 .tab button {
@@ -185,6 +218,11 @@ html, body {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* Change background color of buttons on hover */
@@ -200,13 +238,14 @@ html, body {
 /*register txt */
 .register-holder {
   width:100%;
+  padding-bottom: 15px;
 }
+
 .register { 
   display: inline-block;
   background: #FFD700;   
   width: 90%;
   margin-top: 30px;
-  margin-bottom: 30px;
   font-weight: bold;
   padding: 15px 0px;
   text-transform: uppercase;
@@ -217,7 +256,6 @@ html, body {
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #ccc;
   border-top: none;
   text-align: center;
 }
@@ -228,12 +266,13 @@ html, body {
   height: 230px;
   text-align: center;
   vertical-align: top;
+  border: 1px solid black;
 }
 
 .bottom-text {
  margin: 30px auto;
-
  width: 90%;
+ border: 1px solid black;
 }
 
 .tabcontent h3 {

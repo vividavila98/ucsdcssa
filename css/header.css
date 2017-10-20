@@ -11,10 +11,10 @@ html, body {
   background-color: white;
   padding: 0px 0px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   top: 0;
   border-bottom: 1px solid #5c6772;
-  max-height: 50%;
+  max-height: 90%;
   overflow: hidden;
 }
 .ucsd-nav .icon {
@@ -39,10 +39,10 @@ html, body {
 @media screen and (max-width: 950px) {
   .ucsd-nav.responsive {position: right;}
   .ucsd-nav.responsive .icon {
-    margin-right: 10px;
+    margin-right: 12px;
     position: absolute;
     right: 0;
-    top: 3%;
+    top: 4%;
   }
   .ucsd-nav.responsive a {
     margin-right: 22px;

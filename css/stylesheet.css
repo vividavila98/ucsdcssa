@@ -14,12 +14,13 @@ html, body {
    background-color: #10102F; /*fallback if the background image isn't there*/
 }
 .ucsd-hero-content {
-  padding-top: 260px;
-  padding-bottom: 260px;
+  margin-top: 60px;
+  padding-top: 120px;
+  padding-bottom: 140px;
   text-align: center;
 }
 .ucsd-title {
-  font-size: 48px;
+  font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-weight: 300;
@@ -27,9 +28,14 @@ html, body {
 .ucsd-subtitle {
   font-family: 'Open Sans', sans-serif;
   font-style: italic;
-  font-size: 24px;
+  font-size: 21px;
   letter-spacing: 1px;
   font-weight: 300;
+  width:90%;
+  max-width: 800px;
+  padding: auto;
+  margin: auto;
+  padding-bottom: 20px;
 }
 .ucsd-button {
   display: inline-block;
@@ -38,11 +44,11 @@ html, body {
   letter-spacing: 1.5px;
   height: 50px;
   font-size: 1rem;
-  border-radius: 25px;
+  border-radius: 5px;
   background-color: #34699A;
   color: white;
   border: none;
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   cursor: pointer;
   text-decoration: none;
   text-align:center;
@@ -52,10 +58,30 @@ html, body {
 .ucsd-button:hover{
   background-color: #0e4374;
 }
+.ucsd-button-order{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    background-color: #34699A;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 40px;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+}
+.ucsd-button-order:hover{
+  background-color: #0e4374;
+}
 .ucsd-info {
-  max-width: 1100px;
-  margin: 10px auto; /*100px top and bottom, auto left and right allows it to center*/
+  max-width: 80%;
+  margin: 25px auto; /*100px top and bottom, auto left and right allows it to center*/
   padding: 0 15px; /* For when the window is smaller, doesn't but up against the edges */
+}
+.ucsd-info1 {
+  background-color: #10102F;
+  max-width: 100%;
+  margin: 50px auto; /*100px top and bottom, auto left and right allows it to center*/
+  padding: 15px 15px; /* For when the window is smaller, doesn't but up against the edges */
 }
 .ucsd-italic {
   font-style: italic;
@@ -67,10 +93,30 @@ html, body {
   vertical-align: middle;
 }
 .ucsd-half-content {
+  margin-top: 0;
   font-size: 18px;
   color: #5c6772;
 }
-.ucsd-half-content-heading {
+.ucsd-half-content-heading{
+  font-weight: 300;
+  font-size: 42px;
+}
+.ucsd-half-content-heading h4{
+  margin: 40px 0;
+  padding-top: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.ucsd-half-content-heading h6{
+  margin-top: 5px;
+}
+.ucsd-half-honor {
+  width: 80%;
+  margin: 50px auto;
+  font-size: 18px;
+  color: white;
+  padding: 15px 15px;
+}
+.ucsd-half-honor-heading {
   font-weight: 300;
   font-size: 42px;
 }
@@ -78,6 +124,52 @@ html, body {
    color: white;
    background-color: #FFFFFF; 
 }
+.ucsd-hero3 {
+  border-top: 2px solid #10102F; 
+   color: white;
+   background-color: #FFFFFF; 
+}
 .ucsd-computer-image {
   width: 100%;
+}
+.ucsd-half2 {
+  width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+}
+}
+.ucsd-opsi-image {
+  width: 500%;
+}
+@media screen and (max-width: 950px) {
+  .ucsd-half {
+    width: 100%;
+    display: block;
+    vertical-align: none;
+  }
+  .ucsd-half-content-heading h4{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ucsd-half-content-heading h6{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .ucsd-half-content p{
+    display: block;
+    text-align: center;
+    padding: 5%;
+    margin: auto;
+  }
+  .ucsd-button-order{
+    float: none;
+    margin: auto; 
+    display: table;
+  }
+  .ucsd-computer-image{
+    width: 100%;
+    text-align: center;
+  }
 }
