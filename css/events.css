@@ -99,14 +99,15 @@ p.fb-para {
 #CSSA_evt_title {
 	text-align: center;
 	border: 2px solid black;
-	width: 350px;
-	font-size: 30px;
+	width: 400px;
+	font-size: 35px;
 	border: 2px solid black;
 	font-weight: bolder;
 	margin-bottom: 25px;
+	padding: 5px 5px;
 }
 
-.cssa-events-hold h2{
+.cssa-events-hold h1{
 	text-transform: uppercase;
 	width: 150px;
 	margin: 0 auto;
@@ -236,10 +237,10 @@ p.fb-para {
 	/*background-color: #10102F;*/
 }
 
-.past-events h2 {
+.past-events h1 {
 	text-align: center;
 	border: 2px solid black;
-	font-size: 30px;
+	font-size: 36px;
 	font-weight: bolder;
 	margin-bottom: 25px;
 	width: 200px;
