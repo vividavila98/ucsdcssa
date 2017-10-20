@@ -1,4 +1,4 @@
 # ucsdcssa
-Welcome to the GitHub Repository of the Cognitive Science Student Association
-at the University Of California, San Diego 
+GitHub Repo for CSSA@UCSD
+check out the live website at CSSA-UCSD.ORG
 
