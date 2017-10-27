@@ -145,15 +145,11 @@ img.img-responsive{
   text-align: center;
   border-radius: 20px;
 }
-
 /* The contact form */
-
 .email form{
   margin-top: 0px;
   height: 125px;
-
 }
-
 .email form input{
     border-radius: 5px;
     box-sizing: border-box;
