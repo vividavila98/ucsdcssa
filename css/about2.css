@@ -127,6 +127,7 @@ html, body {
 }
 .members{
   border:1px solid black;
+  border-radius: 25px;
   margin:10px; 
   padding:10px;
   width: 100%;
@@ -142,6 +143,7 @@ img.img-responsive{
   width: 100%
   height: 100%;
   text-align: center;
+  border-radius: 20px;
 }
 
 /* The contact form */
