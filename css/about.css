@@ -20,9 +20,9 @@ html, body {
   padding-top: 100px;
   padding-bottom: 120px;
 }
-.career-title {
-  min-width: 200px;
-  max-width: 520px;
+.career-title h1{
+  min-width: 185px;
+  max-width: 500px;
   text-align: center;
   border-bottom: 2px solid white;
   display: inline-block;
