@@ -21,6 +21,7 @@ html, body {
   padding-bottom: 120px;
 }
 .career-title h1{
+  font-size: 42px;
   min-width: 185px;
   max-width: 500px;
   text-align: center;
