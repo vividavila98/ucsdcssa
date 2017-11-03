@@ -1,6 +1,5 @@
 /* Font imports */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
 /* Remove default browser margins and padding */
 * {
   margin: 0px;
@@ -279,7 +278,7 @@ html, body {
 }
 
 .tabcontent h3 {
- background-color: 10102F;
+ background-color: #10102F;
  color: white;
  font-size: 26px; 
  padding: 5px 0px;
