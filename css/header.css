@@ -14,7 +14,6 @@ html, body {
   width: 100%;
   position: absolute;
   top: 0;
-  border-bottom: 1px solid #5c6772;
   max-height: 90%;
   overflow: hidden;
 }
