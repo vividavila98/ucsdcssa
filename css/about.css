@@ -217,3 +217,15 @@ form button:hover{
 .event-button:hover{
   opacity: 0.7;
 }
+i.fa.fa-facebook{
+	padding-right: 25px;
+	padding-left: 20px;
+}
+i.fa.fa-linkedin{
+	padding-right: 30px;
+	padding-left: 18px;
+}
+i.fa.fa-instagram{
+	padding-right: 30px;
+	padding-left: 18px;
+}
