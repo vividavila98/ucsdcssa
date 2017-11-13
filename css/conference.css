@@ -35,7 +35,7 @@ html, body {
 .conference-title {
   white-space: nowrap;
   width: 80%;
-  max-width: 520px;
+  max-width: 380px;
   text-align: center;
   border-bottom: 1px solid white;
   display: inline-block;
@@ -63,7 +63,7 @@ html, body {
   border: 2px solid grey;
   font-size: 36px;
   text-transform: uppercase;
-  width: 120px;
+  width: 170px;
 }
 
 .about-para {
@@ -74,12 +74,12 @@ html, body {
 
 /*Middle of page*/
 .attending-company {
-  background-image: url("../images/CF_BG1.png");
-  background-size: 100% 100%;
-  padding-top: 175px;
-  padding-bottom: 175px; 
-  background-color: 10102F;
+  padding-top: 50px;
+  background-color: #10102F;
   color: white;
+  height: 4200px;
+
+
 }
 
 .attending-comp-holder {
@@ -91,26 +91,14 @@ html, body {
 }
 
 .attending-title {
- display: inline-block;
- text-align: right;
- border: 2px solid white;
- font-size: 40px;
- margin: 10px 30px;
- text-transform: uppercase;
- padding: 5px 20px;
- 
-}
-
-.table {
-  padding-top: 40px;
+ margin: 0 auto;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 60%;
-  border-collapse: collapse;
-  color: white;
-  font-size: 20px;
-  max-width: 600px;
+  padding: 5px 15px;
+  border: 2px solid white;
+  font-size: 36px;
+  text-transform: uppercase;
+  width: 250px;
+ 
 }
 
 .table-title {
@@ -283,4 +271,23 @@ html, body {
  font-size: 26px; 
  padding: 5px 0px;
  text-transform: uppercase;
+}
+.speakers{
+  margin-top: 50px;
+  margin:0 auto;
+  width: 800px;
+  height:100%;
+  padding-bottom: 500px;
+}
+.col-md-8{
+ padding-top: 0px;
+}
+.col-md-4{
+  padding-top: 10px
+}
+
+.contain{
+  margin: 0 auto;
+  padding: auto;
+  height: 12%;
 }
