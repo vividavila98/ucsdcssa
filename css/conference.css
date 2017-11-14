@@ -17,6 +17,18 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.conference-title{
+  margin: 0 auto;
+}
+.conference-title h1{
+  font-size: 42px;
+  min-width: 185px;
+  max-width: 430px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  font-weight: 900;
+}
 /*top of page*/
 .conference-top {
   text-transform: uppercase;
@@ -31,18 +43,7 @@ html, body {
   padding-top: 170px;
   padding-bottom: 160px; 
 }
-.conference-title{
-  margin: 0 auto;
-}
-.conference-title h1{
-  font-size: 42px;
-  min-width: 185px;
-  max-width: 430px;
-  text-align: center;
-  border-bottom: 2px solid white;
-  display: inline-block;
-  font-weight: 900;
-}
+
 
 .conference-sub {
   padding-top: 30px;
