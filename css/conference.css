@@ -31,7 +31,9 @@ html, body {
   padding-top: 170px;
   padding-bottom: 160px; 
 }
-
+.conference-title{
+  margin: 0 auto;
+}
 .conference-title h1{
   font-size: 42px;
   min-width: 185px;
