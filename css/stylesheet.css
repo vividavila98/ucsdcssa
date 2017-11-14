@@ -147,6 +147,9 @@ html, body {
     display: block;
     vertical-align: none;
   }
+  .ucsd-half-content{
+    padding-top: 35px;
+  }
   .ucsd-half-content-heading h4{
     display: block;
     text-align: center;
