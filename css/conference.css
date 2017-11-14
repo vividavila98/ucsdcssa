@@ -36,6 +36,7 @@ html, body {
   width: 80%;
   max-width: 350px;
   text-align: center;
+  font-weight: 0px;
   border-bottom: 1px solid white;
   display: inline-block;
 }
@@ -286,4 +287,16 @@ html, body {
   margin: 0 auto;
   padding: auto;
   height: 12%;
+}
+i.fa.fa-facebook{
+  padding-right: 25px;
+  padding-left: 20px;
+}
+i.fa.fa-linkedin{
+  padding-right: 30px;
+  padding-left: 18px;
+}
+i.fa.fa-instagram{
+  padding-right: 30px;
+  padding-left: 18px;
 }
