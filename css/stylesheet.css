@@ -132,6 +132,10 @@ html, body {
 .ucsd-computer-image {
   width: 100%;
 }
+.ucsd-computer-image2 {
+  padding-top: 20px;
+  width: 80%;
+}
 .ucsd-half2 {
   width: 49%;
   display: inline-block;
@@ -173,6 +177,12 @@ html, body {
   }
   .ucsd-computer-image{
     width: 100%;
+    margin: 0 10px;
     text-align: center;
+  }
+  .ucsd-computer-image2{
+    width: 90%;
+    margin: 0 35px;
+    padding-bottom: 30px;
   }
 }
