@@ -32,12 +32,12 @@ html, body {
 .conference-top {
   height: 650px;
   display: inline-block;
-  top: 100px;
+  margin-top: 70px;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
   .conference-top {
-    height: 350px;
+    height: 390px;
     display: inline-block;
     top: 100px;
   }
