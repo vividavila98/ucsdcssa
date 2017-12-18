@@ -23,21 +23,6 @@ html, body {
   margin-top: 70px;
 }
 
-@media screen and (max-width: 1000px) {
-  .conference-top {
-    height: 420px;
-    display: inline-block;
-    top: 100px;
-  }
-}
-@media screen and (max-width: 650px) {
-  .conference-top {
-    height: 310px;
-    display: inline-block;
-    top: 100px;
-  }
-}
-
 .conference-sub {
   padding-top: 30px;
   text-align: center;
@@ -200,6 +185,32 @@ html, body {
   padding: auto;
   height: 12%;
 }
+
+@media screen and (max-width: 1000px) {
+  .conference-top {
+    height: 420px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .conference-top {
+    height: 310px;
+  }
+@media screen and (max-width: 450px) {
+  .conference-top {
+    height: 290px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .conference-top {
+    height: 270px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .conference-top {
+    height: 225px;
+  }
+}
+
 i.fa.fa-facebook{
   padding-right: 25px;
   padding-left: 20px;

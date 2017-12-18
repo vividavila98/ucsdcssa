@@ -148,6 +148,31 @@ html, body {
     height: 3840px;
   }
 }
+@media screen and (max-width: 500px) {
+  .attending-company {
+    height: 3940px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .attending-company {
+    height: 4140px;
+  }
+}
+@media screen and (max-width: 415px) {
+  .attending-company {
+    height: 4350px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .attending-company {
+    height: 4800px;
+  }
+}
+@media screen and (max-width: 325px) {
+  .attending-company {
+    height: 5250px;
+  }
+}
 .attending-comp-holder {
   padding-bottom: 30px;
   text-align: right;
