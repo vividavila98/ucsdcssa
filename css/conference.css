@@ -93,7 +93,8 @@ html, body {
 
 
 .attending-comp-holder {
-  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 25px;
   text-align: right;
   max-width: 845px;
   margin-left: auto;
@@ -286,7 +287,7 @@ html, body {
   margin-top: 50px;
   margin:0 auto;
   max-width: 950px;
-  width:90%;
+  width:85%;
   height: auto;
 }
 .col-md-14{
