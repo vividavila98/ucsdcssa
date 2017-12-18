@@ -369,6 +369,9 @@ html, body {
   padding: auto;
   height: 50%;
 }
+.footer-distributed{
+  border-top: 1px solid white;
+}
 i.fa.fa-facebook{
   padding-right: 25px;
   padding-left: 20px;
