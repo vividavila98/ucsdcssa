@@ -3,11 +3,12 @@
   <title>2017 National Cognitive Science Conference</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="css/conference.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+  <script data-cfasync="false" type="text/javascript" src="email.js"></script>
   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
   <div id="header"></div><br />
@@ -177,32 +178,48 @@
     </div>
   </div>-->
 </body>
-  <div id="footer"></div>
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3><a href = "index.html"><img class="ucsd-logo" img src="images/TransparentWhite.png" style="width: 40%"></a></h3>
+      <p class="footer-links">
+        <a href = "index.html">Home</li></a>
+        ·
+        <a href="conference.html">Conference</a>
+        ·
+        <a href="events.html">Events</a>
+        <!--·
+        <a href="wiki.html">Course Wiki</a>-->
+        ·
+        <a href="sponsors.html">Sponsors</a>
+        ·
+        <a href="mentor.html">Mentorship</a>
+        ·
+        <a href="about.html">About</a>
+      </p>
+    </div>
+    <div class="footer-right">
+      <p>Sign-up for Updates!</p>
+      <form id="gform" method="POST" class="pure-form pure-form-stacked"
+      action="https://script.google.com/macros/s/AKfycbxW-JNxgmn8sxAkOp9lgGHd-2HsW-c9yGKJ2j2YNjSkncJP6eo/exec">
+      <input type="text" name="email" placeholder="Email" />
+      <span id="email-invalid" style="display:none; color: white;">
+          Must be a valid email address. Please try again </span>
+      <button>Sign Up!</button>
+    </form>
+    <div style="display:none; color:white; font-size: 11px;" id="thankyou_message">
+        <h2>Thanks for connecting with us!</br>
+        We will get back to you soon!</h2>
+    </div>
+    <p class="footer-connect">Connect With Us!</p>
+      <a href="https://www.facebook.com/webraincogsci"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/cssaatucsd/"><i class="fa fa-instagram"></i></a>
+    <a href="http://linkedin.com/company/cssa-ucsd/"><i class="fa fa-linkedin"></i></a>
+  </div>
+</footer>
 </html>
-
-<script type="text/javascript">
-  function openFAQ(evt, FAQname) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(FAQname).style.display = "block";
-    evt.currentTarget.className += " active";
-  }
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-    $("#header").load("header.html"); 
-    $("#footer").load("footer.html"); 
-  </script>
-  <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js">
-  </script>
+<script>
+  $("#header").load("header.html"); 
+</script>
+<script data-cfasync="false" type="text/javascript" src="email.js">
+</script>
 
