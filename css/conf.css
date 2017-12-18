@@ -18,14 +18,21 @@ html, body {
 }
 /*top of page*/
 .conference-top {
-  height: 650px;
+  height: 600px;
   display: inline-block;
   margin-top: 70px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .conference-top {
-    height: 390px;
+    height: 420px;
+    display: inline-block;
+    top: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .conference-top {
+    height: 310px;
     display: inline-block;
     top: 100px;
   }
