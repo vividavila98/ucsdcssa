@@ -68,10 +68,15 @@ html, body {
   text-transform: uppercase;
   width: 170px;
 }
-
-.about-para {
+.about h2{
   padding-left: 30px;
-  padding-top: 45px;
+  padding-top: 20px;
+}
+
+.about p{
+  padding-right: 28px;
+  padding-left: 30px;
+  padding-top: 25px;
   font-size: 24px;
 }
 
@@ -80,9 +85,69 @@ html, body {
   padding-top: 50px;
   background-color: #10102F;
   color: white;
-  height: 4200px;
+  height: 2750px;
 }
 
+@media screen and (max-width: 950px) {
+  .attending-company {
+    height: 2870px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .attending-company {
+    height: 3070px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .attending-company {
+    height: 3120px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .attending-company {
+    height: 3210px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .attending-company {
+    height: 3290px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .attending-company {
+    height: 3400px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .attending-company {
+    height: 3520px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .attending-company {
+    height: 3620px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .attending-company {
+    height: 3680px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .attending-company {
+    height: 3690px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .attending-company {
+    height: 3720px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .attending-company {
+    height: 3840px;
+  }
+}
 .attending-comp-holder {
   padding-bottom: 30px;
   text-align: right;
@@ -276,21 +341,33 @@ html, body {
 .speakers{
   margin-top: 50px;
   margin:0 auto;
-  width: 800px;
-  height:100%;
-  padding-bottom: 500px;
+  max-width: 950px;
+  width:90%;
+  height: 100%;
 }
-.col-md-8{
- padding-top: 0px;
+.col-md-14{
+  border-bottom: 2px solid white;
+  padding-top: 30px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+
 }
-.col-md-4{
-  padding-top: 10px
+.col-md-14 p{
+  padding-top: 20px;
+  padding-bottom: 30px; 
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.col-md-14 h2{
+  margin-top: 5px;
+  padding-top: 0px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
 }
 
 .contain{
   margin: 0 auto;
   padding: auto;
-  height: 12%;
+  height: 50%;
 }
 i.fa.fa-facebook{
   padding-right: 25px;
