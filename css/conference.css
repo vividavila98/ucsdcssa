@@ -52,28 +52,30 @@ html, body {
 }
 
 .about {
-  background-image: url("../images/CF_AboutBG.png");
-  background-size: 100% 100%;
+  background-color: #183544;
   padding: 60px 15%;
   padding-top: 74px;
   padding-bottom: 110px; 
   
 }
 .about-title {
+  color: #d4eaee;
   margin: 0 auto;
   text-align: center;
   padding: 5px 15px;
-  border: 2px solid grey;
+  border: 2px solid white;
   font-size: 36px;
   text-transform: uppercase;
   width: 170px;
 }
 .about h2{
+  color:white;
   padding-left: 30px;
   padding-top: 20px;
 }
 
 .about p{
+  color: white;
   padding-right: 28px;
   padding-left: 30px;
   padding-top: 25px;

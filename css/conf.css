@@ -47,7 +47,7 @@ html, body {
   text-align: center;
   display: inline-block;
 }
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1200px){
 	.logo_c{
 		display: none;
 	}
@@ -59,7 +59,7 @@ html, body {
 .logo_c{
 	float: left;
 	content: url("../images/cssa_FINAL.png");
-	width: 420px;
+	width: 450px;
 	height: 400px;
 	padding: 25px 50px;
 	margin: 40px 0px;
@@ -80,7 +80,7 @@ html, body {
   /*background-image: url("../images/CF_AboutBG.png");
   background-size: 100% 100%;*/
   background-color: #f7c548;
-  color: white;
+  color: black;
   padding: 60px 13%;
   padding-top: 74px;
   padding-bottom: 110px; 
@@ -90,7 +90,7 @@ html, body {
   margin: 0 auto;
   text-align: center;
   padding: 5px 15px;
-  border: 2px solid white;
+  border: 2px solid black;
   font-size: 36px;
   text-transform: uppercase;
   width: 170px;
