@@ -23,6 +23,7 @@ html, body {
   margin-top: 70px;
   min-width: 100%;
   background-color: #1F8287;
+  /*background-image: url("../images/con_back.png"); */
 }
 .conference-title{
 	padding: 50px 25px;
