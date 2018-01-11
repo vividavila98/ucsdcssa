@@ -99,7 +99,7 @@ p.fb-para {
 	text-align: center;
 	border: 2px solid black;
 	width: 400px;
-	font-size: 35px;
+	font-size: 36px;
 	border: 2px solid black;
 	font-weight: bolder;
 	margin-bottom: 25px;
@@ -227,7 +227,7 @@ p.fb-para {
 	width: 200px;
 	margin: 30 auto;
 }
-.past-events {
+.past-events, .CSSAEvents {
 	border-top: 2px solid #10102F;
 	padding-top: 20px;
 	padding-bottom: 75px;
@@ -243,6 +243,16 @@ p.fb-para {
 	font-weight: bolder;
 	margin-bottom: 25px;
 	width: 200px;
+	margin: 30 auto;
+}
+.CSSAEvents h1 {
+	text-align: center;
+	border: 2px solid black;
+	font-size: 36px;
+	font-weight: bolder;
+	margin-bottom: 25px;
+	max-width: 400px;
+	width: 90%;
 	margin: 30 auto;
 }
 table {
