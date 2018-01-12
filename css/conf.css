@@ -18,7 +18,8 @@ html, body {
 }
 /*top of page*/
 .conference-top {
-  height: 470px;
+  max-height: 490px;
+  height: 90%;
   display: inline-block;
   margin-top: 70px;
   min-width: 100%;
@@ -29,14 +30,14 @@ html, body {
 	padding: 50px 25px;
 	margin: 72px auto;
 	font-family: 'Source Sans Pro', sans-serif;
-	width: 500px;
+	width: 510px;
 	color: white;
 	float: right;
 	text-align: center;
 }
 .conference-title h1{
 
-	font-size: 41px;
+	font-size: 42px;
   text-align: center;
   display: inline-block;
   font-weight: 900;
@@ -48,12 +49,19 @@ html, body {
   text-align: center;
   display: inline-block;
 }
+@media screen and (max-width: 500px){
+  .conference-title{
+    margin-top: 0;
+    width: 95%;
+    display: inline-block;
+  }
+}
 @media screen and (max-width: 1200px){
 	.logo_c{
 		display: none;
 	}
 	.conference-title{
-		width: unset;
+		width: 95%;
 		display: inline-block;
 	}
 }
