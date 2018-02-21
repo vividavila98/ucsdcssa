@@ -150,32 +150,7 @@ html, body {
   font-size: 24px;
 }
 
-/*Middle of page*/
-.attending-company {
-  padding-top: 50px;
-  background-color: #10102F;
-  color: white;
-  height: 4200px;
-}
 
-.attending-comp-holder {
-  padding-bottom: 30px;
-  text-align: right;
-  max-width: 845px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.attending-title {
- margin: 0 auto;
-  text-align: center;
-  padding: 5px 15px;
-  border: 2px solid white;
-  font-size: 36px;
-  text-transform: uppercase;
-  width: 250px;
- 
-}
 
 .table-title {
   border-bottom: 1px solid #ddd;
@@ -303,4 +278,58 @@ i.fa.fa-linkedin{
 i.fa.fa-instagram{
   padding-right: 30px;
   padding-left: 18px;
+}
+.speakers{
+  margin-top: 50px;
+  margin:0 auto;
+  max-width: 950px;
+  width:85%;
+  height: auto;
+}
+.col-md-14{
+  border-bottom: 2px solid white;
+  padding-top: 30px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+
+}
+.col-md-14 p{
+  padding-top: 20px;
+  padding-bottom: 30px; 
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.col-md-14 h2{
+  margin-top: 5px;
+  padding-top: 0px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+}
+.attending-company {
+  padding-bottom: 50px;
+  padding-top: 50px;
+  background-color: #10102F;
+  color: white;
+  min-height: 250px;
+  height: auto;
+
+}
+
+.attending-comp-holder {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  text-align: right;
+  max-width: 845px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.attending-title {
+ margin: 0 auto;
+  text-align: center;
+  padding: 5px 15px;
+  border: 2px solid white;
+  font-size: 36px;
+  text-transform: uppercase;
+  width: 250px;
+ 
 }
