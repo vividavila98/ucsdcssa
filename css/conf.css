@@ -18,7 +18,7 @@ html, body {
 }
 /*top of page*/
 .conference-top {
-  max-height: 490px;
+  max-height: 510px;
   height: 90%;
   display: inline-block;
   margin-top: 70px;
@@ -36,7 +36,7 @@ html, body {
 	text-align: center;
 }
 .conference-title h1{
-
+  margin: 0px auto;
 	font-size: 42px;
   text-align: center;
   display: inline-block;
@@ -143,6 +143,22 @@ html, body {
 }
 .button-2017:hover {
 	opacity: 0.7;
+}
+.button-reg{
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 5px;
+    background-color: #f49542;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 40px;
+    font-weight: bold;
+    float: none;
+    margin: 30px auto;
+  display: table;
+    font-size: 14px;
+}
+.button-reg:hover {
+  opacity: 0.7;
 }
 .about-para {
   padding-left: 30px;
