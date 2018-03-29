@@ -125,19 +125,19 @@ html, body {
 .row{
   padding-top: 45px;
   text-align: center;
+  margin: 0 auto;
 }
 .members{
   border:1px solid black;
   border-radius: 25px;
   padding:10px;
   width: 100%;
+  min-height: 850px;
 }
 .members p{
   height: 270px;
 }
-
-div.col-md-4{
-  
+div.col-lg-4{
   padding-top: 15px;
   margin: 0px 0px;
 }
