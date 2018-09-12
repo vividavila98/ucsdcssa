@@ -32,7 +32,7 @@ html, body {
 }
 
 .structure {
-	padding:20px 40px;
+	padding:40px 40px;
 	background-color: white;
 	max-width: 700px;
 	text-align: center;
@@ -82,7 +82,7 @@ html, body {
 }
 
 .extended-board {
-	padding: 30px 25px;
+	padding: 40px 20px;
 	background-color: #125688;
 	max-width: 700px;
 	margin: 0 auto;
@@ -111,7 +111,7 @@ html, body {
 }
 */
 .active-volunteer{
-	padding: 30px 40px;
+	padding: 40px 40px;
 	max-width: 700px;
 	margin: 0 auto;
 	font-size: 18px;
@@ -146,7 +146,7 @@ html, body {
 }
 
 .executive-board {
-	padding: 30px 25px;
+	padding: 40px 20px;
 	background-color: #125688;
 	max-width: 700px;
 	margin: 0 auto;
