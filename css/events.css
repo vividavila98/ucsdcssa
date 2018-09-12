@@ -9,52 +9,6 @@ html, body {
 	font-size: 14px;
 }
 
-*{
-	bsorder: 1px solid black;
-}
-a:link{
-	color: black;
-}
-a:hover {
-    opacity: 0.7;
-    text-decoration: underline;
-}
-.fb-para {
-	display: block;
-  padding: 3%;
-  margin: auto;
-  position: relative;
-  font-size: 24px;
-  color: black;
-  text-align: left;
-  width: 90%;
-	max-width: 780px;
-	text-decoration: none;
-}
-p.fb-para {
-	font-family: 'Open Sans', sans-serif;
-	padding-top: 20px;
-	font-size: 20px;
-	padding-bottom: 10px;
-}
-.event-button {
-  margin-top: 0px;
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 5px;
-  background-color: #34699A;
-  color: #ffffff;
-  border: 0;
-  padding: 15px 35px;
-  font-weight: bold;
-  font-size: 13px;  text-decoration: none;
-  text-align:center;
-  display: table;
-}
-.event-button:hover{
-  opacity: 0.7;
-}
-
-
 .cssa-events{
 	padding-top: 70px;
 	padding-bottom: 0px;/*200px*/
@@ -76,185 +30,41 @@ p.fb-para {
 	font-size: 42px;
 }
 
-.events-buttons {
+.CSSA-Upcoming-Events {
+	margin: 0 200px;
 	text-align: center;
 }
 
-.events-buttons h3{
-	display: inline-block;
-	color: white;
-	padding: 10px 10px;
-	font-size: 20px;
+.CSSA-Upcoming-Events h1{
+	border: 2px solid #10102F;
+	color: #10102F;
+	text-transform: uppercase;
+	max-width: 95%;
+	width: 500px;
+	margin: 25 auto;
+	font-size: 40px;
 }
+
+.CSSA-Past-Events {
+	margin: 0 200px;
+	text-align: center;
+}
+
+.CSSA-Past-Events h1{
+	border: 2px solid #10102F;
+	color: #10102F;
+	text-transform: uppercase;
+	max-width: 95%;
+	width: 400px;
+	margin: 25 auto;
+	font-size: 40px;
+}
+
+
 
 /* End of the title */
 
-.cssa-events-hold{
-	padding: 50px 0;
-	text-align: center;
-	padding-bottom: 50px;
-}
 
-#CSSA_evt_title {
-	text-align: center;
-	border: 2px solid black;
-	width: 400px;
-	font-size: 36px;
-	border: 2px solid black;
-	font-weight: bolder;
-	margin-bottom: 25px;
-	padding: 5px 5px;
-}
-
-.cssa-events-hold h1{
-	text-transform: uppercase;
-	width: 150px;
-	margin: 0 auto;
-	text-align: center;
-
-}
-.cssa-events-hold iframe{
-	max-width: 800px;
-	width: 80%;
-}
-.cal{
-	padding-top: 20px;
-	display: block;
-	margin: auto;
-	width: 98%;
-	max-width: 800px;
-	z-index: -1;
-}
-
-.event{
-	display: inline-block;
-	width: 350px;
-	padding: 20px 50px;
-
-}
-
-.event h1{
-	text-transform: uppercase;
-	text-align: center;
-}
-
-.event img{
-	width: 100%;
-	height: 200px;
-}
-
-.info-hold{
-	text-align: left;
-	width: 100%;
-	vertical-align: top;
-}
-
-.info-hold2{
-	width: 120px;
-	display: inline-block;
-}
-
-.info-date, .info-time{
-	display: inline-block;
-
-}
-
-.info-date img, .info-time img{
-	width: 50px;
-	height: 50px;
-}
-
-.info-date h3, .info-time h3 {
-	width: 50px;
-	float: right;
-}
-
-.info-text{
-	vertical-align: top;
-	display: inline-block;
-	height: 110px;
-	width: 220px;
-}
-
-.info-text p{
-	text-align: center;
-	font-size: 15px;
-}
-
-.loc-fb-hold{
-	width: 100%;
-	text-align: left;
-}
-
-.location {
-	display: inline-block;
-	text-align: left;
-}
-
-.location img{
-	width: 50px;
-	height: 50px;
-	float: left;
-}
-
-.location h3{
-	float: left;
-}
-
-.loc-fb-hold h4{
-	background-color: lightblue;
-	color: white;
-	float: right;
-	position: relative;
-	top: -6px;
-	padding: 5px 5px;
-	z-index: 1;
-}
-
-.sponsor-events {
-	padding-top: 20px;
-	padding-bottom: 40px;
-	max-width: 100%;
-	margin: 0 auto;
-	/*background-color: #10102F;*/
-}
-
-.sponsor-events h1 {
-	/*color: white;*/
-	text-align: center;
-	/*border: 2px solid white;*/
-	border: 2px solid black;
-	width: 200px;
-	margin: 30 auto;
-}
-.past-events, .CSSAEvents {
-	border-top: 2px solid #10102F;
-	padding-top: 20px;
-	padding-bottom: 75px;
-	max-width: 100%;
-	margin: 0 auto;
-	/*background-color: #10102F;*/
-}
-
-.past-events h1 {
-	text-align: center;
-	border: 2px solid black;
-	font-size: 36px;
-	font-weight: bolder;
-	margin-bottom: 25px;
-	width: 200px;
-	margin: 30 auto;
-}
-.CSSAEvents h1 {
-	text-align: center;
-	border: 2px solid black;
-	font-size: 36px;
-	font-weight: bolder;
-	margin-bottom: 25px;
-	max-width: 400px;
-	width: 90%;
-	margin: 30 auto;
-}
 table {
 	/*color: white;*/
 	display: block;

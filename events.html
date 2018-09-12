@@ -1,6 +1,7 @@
+<DOCTYPE HTML>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
   <title>CSSA Events</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
@@ -17,77 +18,30 @@
       <h1>Events</h1>
    </div>
 
-   <div class="CSSAEvents">
-      <h1>Upcoming CSSA Events</h1>
-     	<div class="cal">
-      		<div data-tockify-component="calendar" data-tockify-calendar="cssaucsd"></div>
-  	  </div>
-  	  <p class="fb-para">Interested in our upcoming event?
-  	   <a href="https://www.facebook.com/events/100501274147800/"><button class = "event-button" > RSVP Here! </button></a>
-		  Let us know you're coming on Facebook!</p>
+    <div class="CSSA-Upcoming-Events">
+      <h1> <strong> Upcoming CSSA Events </strong> </h1>
+      <div class="cal">
+          <div data-tockify-component="calendar" data-tockify-calendar="upcomingcssaevents"></div>
+      </div>
+    </div>
+
+   <div class="CSSA-Past-Events">
+      <h1> <strong> Past CSSA Events </strong> </h1>
+      <div class="cal2”>
+          <div data-tockify-component="calendar" data-tockify-calendar="pastcssaevents"></div>
+          <div data-tockify-component="calendar" data-tockify-calendar="pastcssaevents"></div>
+      </div>
     </div>
   </div>
 
-  <div id="pastEvents" class="tabcontent">
-    <div class="past-events">
-      <h1> Past Events </h1>
-      <table class="tableContent">
-        <tr>
-          <th id="dateTab" class="headerTab">Date</th>
-          <th id="eventTab">Event Description</th>
-          <th id="locationTab">Slides</th> 
-        </tr>
-        <tr>
-          <td>October 10th, 2017</td>
-          <td>CSSA GBM #1: Intro to CogSci/CSSA</td>
-          <td><a href="GBM1_slides.html">Slides</a></td> 
-        </tr>
-        <tr>
-          <td>October 24th, 2017</td>
-          <td>CSSA GBM #2: Grad Student Panel</td>
-          <td><a href="GBM2_slides.html">Slides</a></td> 
-        </tr>
-        <tr>
-          <td>November 7th, 2017</td>
-          <td>CSSA GBM #3: Lab Open House</td>
-          <td><a href="LabInfo.pdf">Info</a></td> 
-        </tr>
-        <tr>
-          <td>January 30th, 2018</td>
-          <td>CSSA Talk Series: Machine Learning and Neural Computation</td>
-          <td><a href="GBM3_slides.html">Slides</a></td> 
-        </tr>
-         <tr>
-          <td>May 30th, 2018</td>
-          <td>CSSA's Honors Program 101</td>
-          <td><a href="CSSA_Honors_Event.pdf">Slides</a></td> 
-        </tr>
-      </table>
-    </div>
-  </div>
-  <!--<div id="sponsorEvents" class="tabcontent">
-    <div class="sponsor-events">
-      <h1> Sponsor Events </h1>
-      <table class="tableContent">
-        <tr>
-          <th id="dateTab" class="headerTab">Date Time</th>
-          <th id="eventTab">Event</th>
-          <th id="locationTab">Location</th> 
-        </tr>
-        <tr>
-          <td>Date Time</td>
-          <td>AI Master text text</td> 
-          <td>Multipurpose Room</td>
-        </tr>
-        <tr>
-          <td>Date Time</td>
-          <td>AI Master text text</td> 
-          <td>Multipurpose Room</td>
-        </tr>
-      </table>
-    </div>
-  </div>-->
+
+
+<!-- <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script> -->
+
+<!-- <div data-tockify-component="calendar" data-tockify-calendar="upcomingcssaevents"></div> -->
+<!-- <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script> -->
 </body>
+
 <footer class="footer-distributed">
     <div class="footer-left">
       <h3><a href = "index.html"><img class="ucsd-logo" img src="images/TransparentWhite.png" style="width: 40%"></a></h3>
@@ -103,6 +57,8 @@
         <a href="sponsors.html">Sponsors</a>
         ·
         <a href="mentor.html">Mentorship</a>
+        ·
+        <a href="membership.html">Membership</a>
         ·
         <a href="about.html">About</a>
       </p>

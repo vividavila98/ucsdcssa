@@ -1,0 +1,168 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro');
+/* Remove default browser margins and padding */
+html, body {
+	padding: 0;
+  	margin: 0;
+  	font-family: 'Open Sans', sans-serif;
+  	font-family: 'Source Sans Pro', sans-serif;
+  	font-size: 14px;
+}
+.cssa-membership {
+	padding-top: 70px;
+	background-color: white;
+	text-align: center;
+}
+
+.head {
+	padding: 100px 0;
+	background-image: url("../images/CF_BG1.png");
+}
+
+.head h1 {
+	text-transform: uppercase;
+	border-bottom: 2px solid white;
+	/*text-decoration: underline;*/
+	width: 250px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+
+}
+
+.structure {
+	padding:20px 40px;
+	background-color: white;
+	max-width: 700px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.structure h1{
+	border: 2px solid #10102F;
+	color: #10102F;
+	text-transform: uppercase;
+	max-width: 95%;
+	width: 500px;
+	margin: 0 auto;
+}
+
+
+.structure h2 {
+	font-weight: bolder;
+}
+
+.feedback-form-button {
+  	display: inline-block;
+	padding: 1px 25px;
+  	letter-spacing: 1.5px;
+  	height: 35px;
+  	font-size: 18px;
+  	border-radius: 5px;
+  	background-color: #10102F;
+  	color: white;
+  	border: none;
+  	font-family: 'Open Sans', sans-serif;
+  	cursor: pointer;
+  	text-decoration: none;
+  	text-align:center;
+  	vertical-align:middle;
+  	font-weight: 900;
+  	margin: 0 auto;
+}
+.feedback-form-button:hover{
+  opacity: 0.7;
+}
+
+
+#extended-board-wrapper {
+	background-color: #34699A;
+}
+
+.extended-board {
+	padding: 30px 25px;
+	background-color: #34699A;
+	max-width: 700px;
+	margin: 0 auto;
+	border: 0;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+
+.extended-board h2{
+	text-transform: uppercase;
+	color: white;
+	border: 2px solid white;
+	width: 300px;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 310px;
+
+}
+
+.extended-board p{
+	color: white;
+}
+/*
+#active-volunteer-wrapper{
+	background color: white;
+}
+*/
+.active-volunteer{
+	padding: 30px 40px;
+	max-width: 700px;
+	margin: 0 auto;
+	font-size: 18px;
+	
+}
+
+.active-volunteer h2{
+	border: 2px solid #10102F;
+	color: #10102F;
+	text-transform: uppercase;
+	max-width: 95%;
+	width: 600px;
+	margin: 0 auto;
+
+}
+
+.active-volunteer p{
+	text-align: left;
+}
+
+.active-volunteer ul {
+	text-align: left;
+}
+
+
+
+#executive-board-wrapper {
+	background-color: #34699A;
+}
+
+.executive-board {
+	padding: 30px 25px;
+	background-color: #34699A;
+	max-width: 700px;
+	margin: 0 auto;
+	border: 0;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+
+.executive-board h2{
+	text-transform: uppercase;
+	color: white;
+	border: 2px solid white;
+	width: 300px;
+	margin: 0 auto;
+	width: 90%;
+	max-width: 310px;
+
+}
+
+.executive-board p{
+	color: white;
+}

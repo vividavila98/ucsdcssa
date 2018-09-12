@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Membership </title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+	<link href="css/membership.css" rel="stylesheet">
+	<link href="css/footer.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<div id="header"></div><br />
+</head>
+
+<body>
+	<div class = cssa-membership>
+		<div class =head>
+			<h1>Membership</h1>
+		</div>
+		<div class =structure>
+			<h1>CSSA Officer Structure</h1>
+			<p>The CSSA includes a General Membership, Extended Board, and Executive Board. </br> </br> </p>
+			<h2> General Membership </h2>
+			<p> No commitment required. You will receive our monthly newsletter and other emails about events, and are encouraged to go to all of our general events. </br></p>
+			<p> Because our mission is to host informative and engaging events for UCSD students, we take feedback very seriously. </p>
+			<a href=https://docs.google.com/forms/d/e/1FAIpQLSfnb-ucoOqLfhkPJrc2VXg-EQm2In95ZVfAMncskCCdLXeFlQ/viewform?usp=sf_link><button class = feedback-form-button > Got Feedback? </button></a>
+		</div>
+		<div id = extended-board-wrapper>
+			<div class = extended-board>
+				<h2> Extended Board </h2>
+				<p> Commitment required. <em> (~ Estimated 2-5 hours per week) </em> </br> </br> The Extended Board is made up of volunteers and committee members. You can sign up to be a volunteer at any point in the year, but committee applications open in the fall and are filled quickly. Those who sign up to volunteer in Spring Quarter are not eligible for awards during the banquet but will still be invited. </p>
+			</div>
+		</div>
+		<div id=active-volunteer-wrapper>
+			<div class=active-volunteer>
+				<h2> Active Volunteers & Committee Members </h2>
+				<p> To be considered an Active Volunteer, you must do at least 2 jobs per quarter. </br> </p>
+				<p> <strong> Jobs include… </strong> </p>
+				<ul>
+					<li> Tabling </li>
+					<li> Putting up posters </li>
+					<li> Taping flyers to chais </li>
+					<li> Class announcements </li>
+					<li> Chalking boards and sidewalks </li>
+					<li> Posting pictures of yourselves on our social media at our events </li>
+					<li> Invite friends to our events on Facebook and show up with them </li>
+					<li> Participate in CogSci or Psychology lab experiments </li>
+					<li> Anything else you might think of, as long as it is approved by the board </br> </br> </li>
+				</ul>
+				<p> Committee members report to their Committee lead who is a member of the Executive Board. They will shadow and assist leads with completing tasks. </br> </p>
+				<p> <strong> Committees include… </strong> </p>
+				<ul>
+					<li> Fundraising </li>
+					<li> Logistics </li>
+					<li> Sponsorship </li>
+					<li> Professional and Academic Development </li>
+					<li> Public Relations </li>
+					<li> Food and Dining </br> </br> </li>
+				</ul>
+				<p> We will have special events for the Extended Board, such as game tournaments, meals with the board and department, and social events. We will also host a banquet for the Executive and Extended Board at the end of the year. Each committee and volunteer will receive awards, as we send off our graduating seniors. </p>
+				</div>
+			</div>
+			<div id=executive-board-wrapper>
+				<div class=executive-board>
+					<h2> Executive Board </h2> 
+					<p> These officers do all of the planning for these events. <em> Applications are open in the Spring Quarter after the conference. </em> </br> </br> <strong> To become an executive board member, it is highly recommended that you become a dedicated committee member. </strong> </br> </br> To learn more about members and their positions, check out our About page. </p>
+				</div>
+			</div>
+	</div>
+</body>
+<footer class="footer-distributed">
+	<div class="footer-left">
+		<h3><a href = "index.html"><img class="ucsd-logo" img src="images/TransparentWhite.png" style="width: 40%"></a></h3>
+		<p class="footer-links">
+       		<a href = "index.html">Home</li></a>
+        		·
+       		<a href="conference.html">Conference</a>
+        		·
+        		<a href="events.html">Events</a>
+        		·
+        		<a href="sponsors.html">Sponsors</a>
+        		·
+        		<a href="mentor.html">Mentorship</a>
+        		·
+				<a href=membership.html>Membership</a>
+				.
+        		<a href="about.html">About</a>
+      		</p>
+    	</div>
+    	<div class="footer-right">
+      		<p>Sign-up for Updates!</p>
+      		<form id="gform" method="POST" class="pure-form pure-form-stacked"
+      action="https://script.google.com/macros/s/AKfycbxW-JNxgmn8sxAkOp9lgGHd-2HsW-c9yGKJ2j2YNjSkncJP6eo/exec">
+      				<input type="text" name="email" placeholder="Email" />
+      				<span id="email-invalid" style="display:none; color: white;">
+          				Must be a valid email address. Please try again </span>
+      				<button>Sign Up!</button>
+    		</form>
+   	<div style="display:none; color:white; font-size: 11px;" id="thankyou_message">
+        		<h2>Thanks for connecting with us!</br>
+        		We will get back to you soon!</h2>
+    	</div>
+    		<p class="footer-connect">Connect With Us!</p>
+    		<a href="https://www.facebook.com/webraincogsci"><i class="fa fa-facebook"></i></a>
+    		<a href="https://www.instagram.com/cssaatucsd/"><i class="fa fa-instagram"></i></a>
+   		 <a href="http://linkedin.com/company/cssa-ucsd/"><i class="fa fa-linkedin"></i></a>
+  	</div>
+</footer>
+</html>
+	<script type="text/javascript">
+	$("#header").load("header.html"); 
+	</script>
+	<script data-cfasync="false" type="text/javascript" src="email.js">
+	</script>
+</html>
+
+
+
