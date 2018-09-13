@@ -31,6 +31,17 @@ html, body {
 
 }
 
+@media screen and (max-width: 700px) {
+	.head { 
+		background-size: cover;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.head { 
+		background-size: cover;
+	}
+}
+
 .structure {
 	padding:40px 40px;
 	background-color: white;
@@ -169,3 +180,4 @@ html, body {
 .executive-board p{
 	color: white;
 }
+
