@@ -22,7 +22,6 @@ html, body {
 .head h1 {
 	text-transform: uppercase;
 	border-bottom: 2px solid white;
-	/*text-decoration: underline;*/
 	width: 250px;
 	color: white;
 	text-align: center;
@@ -31,14 +30,14 @@ html, body {
 
 }
 
-
 .structure {
 	padding:40px 40px;
 	background-color: white;
 	max-width: 700px;
 	text-align: center;
-	display: inline-block;
+	/*display: inline-block;*/
 	font-size: 20px;
+	margin: 0 auto;
 }
 
 .structure h1{
@@ -80,17 +79,20 @@ html, body {
 
 #extended-board-wrapper {
 	background-color: #125688;
+
 }
 
 .extended-board {
 	padding: 40px 20px;
-	background-color: #125688;
+	
 	max-width: 700px;
 	margin: 0 auto;
 	border: 0;
 	padding-bottom: 50px;
 	font-size: 20px;
+	
 }
+
 
 .extended-board h2{
 	text-transform: uppercase;
