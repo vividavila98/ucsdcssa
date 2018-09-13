@@ -173,3 +173,25 @@ html, body {
 	color: white;
 }
 
+.about-button {
+  	/*display: inline-block;*/
+	padding: 1px 25px;
+  	letter-spacing: 1px;
+  	height: 35px;
+  	font-size: 16px;
+  	border-radius: 5px;
+  	background-color: #DCDCDC;
+  	color: black;
+  	border: none;
+  	font-family: 'Open Sans', sans-serif;
+  	cursor: pointer;
+  	text-decoration: none;
+  	text-align:center;
+  	vertical-align:middle;
+  	font-weight: 800;
+  	margin: 0 auto;
+}
+.about-button:hover{
+  opacity: 0.7;
+}
+
