@@ -55,7 +55,7 @@ html, body {
 }
 
 .feedback-form-button {
-  	display: inline-block;
+  	/*display: inline-block;*/
 	padding: 1px 25px;
   	letter-spacing: 1.5px;
   	height: 35px;
