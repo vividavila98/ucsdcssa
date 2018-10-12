@@ -197,12 +197,16 @@ html, body {
   opacity: 0.7;
 }
 
-/*.people{
-	padding-top: 70px;
-	width:5%;
+.people{
+	padding-top: 90px;
+	width:30%;
+	border-radius:0%;
+	overflow: hidden;
 }
 
 .members {
 	padding-top:45px;
-	width: 5%;
-}*/
+	width: 30%;
+	border-radius:0%;
+	overflow: hidden;
+}
