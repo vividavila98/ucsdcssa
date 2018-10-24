@@ -197,6 +197,25 @@ html, body {
   opacity: 0.7;
 }
 
+.volunteer-form-button {
+  	/*display: inline-block;*/
+	padding: 1px 25px;
+  	letter-spacing: 1.5px;
+  	height: 35px;
+  	font-size: 18px;
+  	border-radius: 5px;
+  	background-color: #10102F;
+  	color: white;
+  	border: none;
+  	font-family: 'Open Sans', sans-serif;
+  	cursor: pointer;
+  	text-decoration: none;
+  	text-align:center;
+  	vertical-align:middle;
+  	font-weight: 900;
+  	margin: 0 auto;
+}
+
 /*.people{
 	padding-top: 90px;
 	width:30%;
