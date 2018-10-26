@@ -47,7 +47,7 @@ html, body {
 }
 
 .CSSA-Past-Events {
-	margin: 0 200px;
+	margin: 0 100px;
 	text-align: center;
 }
 
@@ -61,6 +61,41 @@ html, body {
 	font-size: 40px;
 }
 
+table {
+  height: 40%;
+  left: 10%;
+  margin: 30px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+}
+
+thead th {
+  background: #10102F;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 25px;
+  width: 50%;
+  font-size: 18px;
+  text-align: center;
+}
 
 
 /* End of the title */
