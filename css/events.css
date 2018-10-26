@@ -47,21 +47,10 @@ html, body {
 }
 
 .CSSA-Past-Events {
-	margin: 0 100px;
+	margin: 0 200px;
 	text-align: center;
 }
-
-.CSSA-Past-Events h1{
-	border: 2px solid #10102F;
-	color: #10102F;
-	text-transform: uppercase;
-	max-width: 95%;
-	width: 400px;
-	margin: 25 auto;
-	font-size: 40px;
-}
-
-table {
+/*table {
   height: 40%;
   left: 10%;
   margin: 30px auto;
@@ -95,13 +84,25 @@ th, td {
   width: 50%;
   font-size: 18px;
   text-align: center;
+}*/
+
+.CSSA-Past-Events h1{
+	border: 2px solid #10102F;
+	color: #10102F;
+	text-transform: uppercase;
+	max-width: 95%;
+	width: 400px;
+	margin: 25 auto;
+	font-size: 40px;
 }
+
+
 
 
 /* End of the title */
 
-/*
-table {
+
+/*table {
 	color: white;
 	display: block;
 	margin: auto;
