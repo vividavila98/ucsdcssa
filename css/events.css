@@ -100,9 +100,9 @@ th, td {
 
 /* End of the title */
 
-
+/*
 table {
-	/*color: white;*/
+	color: white;
 	display: block;
 	margin: auto;
 	width: 825px;
@@ -112,7 +112,7 @@ table {
 tr {
 	height: 30px;
 
-}
+}*/
 
 .headerTab {
 	font-family: 'Open Sans', sans-serif;
