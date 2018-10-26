@@ -50,8 +50,8 @@ html, body {
 	margin: 0 200px;
 	text-align: center;
 }
-/*table {
-  height: 40%;
+table {
+  height: 20%;
   left: 10%;
   margin: 30px auto;
   overflow-y: scroll;
@@ -84,7 +84,7 @@ th, td {
   width: 50%;
   font-size: 18px;
   text-align: center;
-}*/
+}
 
 .CSSA-Past-Events h1{
 	border: 2px solid #10102F;
