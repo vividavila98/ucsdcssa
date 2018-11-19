@@ -8,27 +8,47 @@ html, body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
-.cssa-mentor{
+/*.cssa-omegapsi{
+	padding-top: 90px;
+	padding-bottom: 30px;
+	background-color: white;
+	text-align: center;
+}*/
+.cssa-omegapsi{
 	padding-top: 70px;
 	background-color: white;
 	text-align: center;
-
 }
 
-.head{
-	background-image: url("../images/mentor.jpeg");
+
+/*.head{
+	background-image: url("../images/CF_BG1.png");
 	font-family: 'Source Sans Pro', sans-serif;
   	background-size: 100% 100%;
   	padding-top: 50px;
-  	padding-bottom: 200px; 
+  	padding-bottom: 100px; 
   	text-align: center;
   	font-size: 24px;
   	border: 0px;
   	text-decoration: none;
+}*/
 
+.head {
+	padding: 100px 0;
+	background-image: url("../images/CF_BG1.png");
 }
 
-@media screen and (max-width: 700px) {
+.head h1 {
+	text-transform: uppercase;
+	border-bottom: 2px solid white;
+	width: 400px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 42px;
+}
+
+/*@media screen and (max-width: 700px) {
 	.head { 
 		background-size: cover;
 	}
@@ -37,9 +57,9 @@ html, body {
 	.head { 
 		background-size: cover;
 	}
-}
+}*/
 
-.head h1{
+/*.head h1{
 	display: inline-block;
 	padding-top: 150px;
 	border-bottom: 2px solid white;
@@ -51,75 +71,60 @@ html, body {
 	margin: 0 auto;
 	color: white;
 	white-space: nowrap;
-}
+}*/
 
 .about{
-	padding:20px 40px;
+	padding:40px 40px;
 	background-color: white;
-	max-width: 700px;
+	max-width: 800px;
 	text-align: center;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 18px;
+	margin:0 auto;
 }
 
 .about h1{
 	border: 2px solid black;
 	font-weight: bolder;
 	text-transform: uppercase;
-	width: 230px;
+	width: 420px;
 	margin: 0 auto;
+}
+
+
+.images-omegapsi {
+	display:flex;
+	flex-flow:row nowrap;
+	align-items: center;
+	width:55%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .about h2{
 	font-weight: bolder;
 }
 
-#sign-up-wrapper{
-	background-color: #10102F;
 
+.about p{
+	text-align:center;
+	
 }
 
-.sign-up{
-	padding: 30px 25px;
-	background-color: #10102F;
-	max-width: 700px;
-	margin: 0 auto;
-	border: 0;
-	padding-bottom: 50px;
-	font-size: 20px;
+.about ul{
+	text-align:left;
 }
 
-.sign-up h1{
-	text-transform: uppercase;
-	color: white;
-	border: 2px solid white;
-	width: 300px;
-	margin: 0 auto;
-	width: 90%;
-	max-width: 310px;
 
-}
-
-.sign-up p{
-	color: white;
-}
-
-.ment-container1{
-	display: inline-block;
-	text-align: center;
-
-}
-.mentor-button{
-	margin-right: 25px;
-	display: inline-block;
-	padding: 10px 35px;
-  	text-transform: uppercase;
+.omegapsi-button {
+  	/*display: inline-block;*/
+	padding: 1px 25px;
   	letter-spacing: 1.5px;
-  	height: 50px;
+  	height: 35px;
   	font-size: 18px;
   	border-radius: 5px;
-  	background-color: white;
-  	color: black;
+  	background-color: #10102F;
+  	color: white;
   	border: none;
   	font-family: 'Open Sans', sans-serif;
   	cursor: pointer;
@@ -127,11 +132,9 @@ html, body {
   	text-align:center;
   	vertical-align:middle;
   	font-weight: 900;
-}
-.mentor-button:hover{
-	opacity: 0.7;
-}
-@media screen and (max-width: 800px) {
+  	margin: 0 auto;
+  }
+/*@media screen and (max-width: 800px) {
 	.mentor-button {
 		margin-right: 1px;
 		padding: 10px 20px;
@@ -153,10 +156,10 @@ html, body {
 		color: white;
 		white-space: nowrap;
 		font-size: 36px;
-	}
+	}*/
 
-}
-.mentee-button{
+
+/*.mentee-button{
 	display: inline-block;
 	padding: 10px 35px;
   	text-transform: uppercase;
@@ -176,79 +179,20 @@ html, body {
 }
 .mentee-button:hover{
 	opacity: 0.7;
-}
-@media screen and (max-width: 700px) {
+}*/
+/*@media screen and (max-width: 700px) {
 	
 	.mentee-button {
 		padding: 10px 20px;
-	}  
+	}  */
 
-}
 
-#know-more-wrapper{
-	background color: white;
-}
 
-.know-more{
-	padding: 30px 40px;
-	max-width: 700px;
-	margin: 0 auto;
-	font-size: 18px;
-	
-}
-
-.know-more h1{
-	border: 2px solid #10102F;
-	color: #10102F;
-	text-transform: uppercase;
-	max-width: 95%;
-	width: 400px;
-	margin: 0 auto;
-
-}
-
-.ment-container2{
-	text-align: center;
-	padding-top: 45px;
-}
-
-.ment-container2 h2{
-	display: inline-block;
-	background-color: #10102F;
-	border-radius: 5px;
-	color: white;
-	padding: 10px 15px;
-	margin: 10px 10px;
-}
-
-.button {
-	display: inline-block;
-	padding: 8px 25px;
-  	text-transform: uppercase;
-  	letter-spacing: 1.5px;
-  	height: 35px;
-  	font-size: 18px;
-  	border-radius: 5px;
-  	background-color: #10102F;
-  	color: white;
-  	border: none;
-  	font-family: 'Open Sans', sans-serif;
-  	cursor: pointer;
-  	text-decoration: none;
-  	text-align:center;
-  	vertical-align:middle;
-  	font-weight: 900;
-  	margin: 0 auto;
-}
-.button:hover {
-	opacity: 0.7;
-}
-@media screen and (max-width: 700px) {
+/*@media screen and (max-width: 700px) {
 	.button {
 		display: inline-block;
 		margin-right: 1px;
 		padding: 8px 5px;
 		font-size: 14px;
 		width: 100%;
-	} 
-}
+	} */
