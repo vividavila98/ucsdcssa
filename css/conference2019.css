@@ -26,26 +26,25 @@ html, body {
   padding: 5px 30px;
   margin: 95px auto;
   font-family: 'Source Sans Pro', sans-serif;
-  width: 550px;
   color: white;
   float: right;
   text-align: center;
 }
 .conference-title h1{
   margin: 0px auto;
-  font-size: 55px;
+  font-size: 80px;
   min-width: 185px;
   max-width: 550px;
   text-align: center;
   display: inline-block;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
   font-weight: 900;
   
 }
 .conference-title h2{
 
-  font-size: 23px;
-  padding-top:10px;
+  font-size: 30px;
+  /*padding-top:10px;*/
   text-align: center;
   display: inline-block;
 }
@@ -195,14 +194,14 @@ th, td {
   padding-bottom:10px;
 }*/
 
-.logo_c{
+/*.logo_c{
   float: left;
   content: url("../images/2019logo.jpg");
   width: 450px;
   height: 400px;
   padding: 25px 40px;
   margin: 40px 0px;
-}
+}*/
 .container1 {
   width: 80%;
   max-width: 1000px;
