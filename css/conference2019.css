@@ -215,8 +215,8 @@ th, td {
 }
 
 .past1 {
-  background-color: black;
-  color: white;
+  background-color:#DCDCDC;
+  color: black;
   padding: 60px 13%;
   padding-top: 50px;
   padding-bottom: 50px; 
@@ -232,7 +232,7 @@ th, td {
  margin: 0 auto;
   text-align: center;
   padding: 5px 15px;
-  border: 2px solid white;
+  /*border: 2px solid white;*/
   font-size: 36px;
   text-transform: uppercase;
   width: 230px;
