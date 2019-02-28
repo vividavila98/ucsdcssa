@@ -169,7 +169,8 @@ th, td {
 .speakers{
   background-color:#201d3a;
   margin: 30px auto;
-  padding: 25px;
+  padding-top: 25px;
+  padding-bottom: 50px;
   margin-top: 0px;
   margin-bottom:0px;
 }
