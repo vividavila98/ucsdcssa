@@ -92,7 +92,7 @@ html, body {
   padding: 15px 0px 40px 0px;
 }
 
-.agenda h2{
+.agenda h1{
   color: white;
   text-align: center;
 }
@@ -145,7 +145,7 @@ th, td {
   margin-top: 0px;
   margin-bottom:0px;
 }
-.workshop h2{
+.workshop h1{
   text-align: center;
   color: black;
 }
@@ -174,7 +174,7 @@ th, td {
   margin-bottom:0px;
 }
 
-.speakers h2{
+.speakers h1{
   color: white;
   text-align: center;
 }
