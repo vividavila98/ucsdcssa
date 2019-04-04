@@ -166,7 +166,7 @@ th, td {
   color: white;
 }
 
-/*.speakers{
+.speakers{
   background-color:#201d3a;
   margin: 30px auto;
   padding-top: 25px;
@@ -181,11 +181,11 @@ th, td {
 }
 
 .speakers h2 {
-  color: #4cb69f;
-  text-align: left;
+  color: white;
+  text-align: center;
   padding: 25px;
   margin: 30px auto;
-}*/
+}
 
 .pictures{
   margin: 0 auto;
