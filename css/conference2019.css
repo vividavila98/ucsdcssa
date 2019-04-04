@@ -166,7 +166,7 @@ th, td {
   color: white;
 }
 
-.speakers{
+/*.speakers{
   background-color:#201d3a;
   margin: 30px auto;
   padding-top: 25px;
@@ -180,10 +180,92 @@ th, td {
   text-align: center;
 }
 
-.speakers h3 {
-  color: white;
-  text-align: center;
+.speakers h2 {
+  color: #4cb69f;
+  text-align: left;
+  padding: 25px;
+  margin: 30px auto;
+}*/
+
+.pictures{
+  margin: 0 auto;
+  margin-top: 75px;
+  max-width: 950px;
+
+  width:85%;
+  height: auto;
 }
+.col-md-14{
+  border-bottom: 2px solid white;
+  padding-top: 30px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+
+}
+.col-md-14 p{
+  padding-top: 20px;
+  padding-bottom: 30px; 
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.col-md-14 h2{
+  margin-top: 10px;
+  padding-top: 0px; 
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+}
+.col-sm-4{
+  
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+.attending-speak {
+  background-color: #10102F;
+  color: white;
+  padding: 60px 3%;
+  padding-top: 74px;
+  padding-bottom: 110px; 
+
+}
+
+.attending-title {
+ margin: 0 auto;
+  text-align: center;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  /*border: 2px solid white;*/
+  font-size: 36px;
+  text-transform: uppercase;
+  width: 300px;
+ 
+}
+.speak img{
+  height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.speak{
+  width: 195px;
+  height: 345px;
+  text-align: center;
+  margin: 0 auto;
+}
+.speak h3 {
+  color: white;
+  padding-bottom: 0;
+  margin-bottom:0;
+
+}
+.speak h4 {
+  color: yellow;
+}
+
+.speak h5{
+  color: white;
+  font-size: 18px;
+}
+
 
 /*.square {
   height: 75px;
