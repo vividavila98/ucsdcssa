@@ -195,31 +195,13 @@ th, td {
   width:85%;
   height: auto;
 }
-.col-md-14{
-  border-bottom: 2px solid white;
-  padding-top: 30px; 
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 18px;
-
-}
-.col-md-14 p{
-  padding-top: 20px;
-  padding-bottom: 30px; 
-  font-family: 'Source Sans Pro', sans-serif;
-}
-.col-md-14 h2{
-  margin-top: 10px;
-  padding-top: 0px; 
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 36px;
-}
 .col-sm-4{
   
   font-family: 'Source Sans Pro', sans-serif;
 
 }
 .attending-speak {
-  background-color: #10102F;
+  background-color: #201d3a;
   color: white;
   padding: 60px 3%;
   padding-top: 74px;
