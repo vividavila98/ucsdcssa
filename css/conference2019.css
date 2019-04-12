@@ -17,7 +17,7 @@ html, body {
   max-height: 510px;
   height: 90%;
   display: inline-block;
-  margin-top: 70px;
+  margin-top: 70px auto;
   min-width: 100%;
   /*background-color: #201d3a;*/
   background-image: url("../images/2019background.jpg"); 
