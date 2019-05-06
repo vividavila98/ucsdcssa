@@ -145,6 +145,59 @@ html, body {
 .ucsd-opsi-image {
   width: 500%;
 }
+
+.newsletter{
+  background-color: #10102F;
+  padding: 15px 0px 40px 0px;
+}
+
+.newsletter h1{
+  color: white;
+  text-align: center;
+}
+
+table, th, td{
+  border:2px solid #10102F;
+}
+
+table {
+  height: 50%;
+  left: 10%;
+  margin: 30px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 50%;
+}
+
+thead th {
+  background: #4cb69f;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 25px;
+}
+
+tbody {
+  background: #E0E0E0;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 25px;
+  width: 25%;
+  font-size: 18px;
+  text-align: center;
+}
+
+
 @media screen and (max-width: 950px) {
   .ucsd-half {
     width: 100%;
