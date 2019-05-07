@@ -128,6 +128,8 @@ html, body {
   border-top: 2px solid #10102F; 
    color: white;
    background-color: #FFFFFF; 
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 .ucsd-computer-image {
   width: 100%;
