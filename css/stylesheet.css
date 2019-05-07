@@ -156,6 +156,7 @@ html, body {
 .newsletter h1{
   color: white;
   text-align: center;
+  font-size: 36px;
 }
 
 table, th, td{
@@ -168,7 +169,7 @@ table {
   margin: 30px auto;
   overflow-y: scroll;
   position: static;
-  width: 50%;
+  width: 60%;
 }
 
 thead th {
