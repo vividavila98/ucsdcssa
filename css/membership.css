@@ -216,6 +216,10 @@ html, body {
   	font-weight: 900;
   	margin: 0 auto;
 }
+.fa-envelope {
+    background: #3ea1ec;
+    color: white;
+}
 
 /*.people{
 	padding-top: 90px;

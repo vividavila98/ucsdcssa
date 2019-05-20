@@ -103,6 +103,11 @@ html, body{
   background: #007bb5;
   color: white;
 }
+
+.fa-envelope {
+    background: #3ea1ec;
+    color: white;
+}
 /* Footer Right */
 
 .footer-distributed .footer-right{
